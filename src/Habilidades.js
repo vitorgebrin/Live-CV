@@ -1,4 +1,4 @@
-import { createApi } from 'unsplash-js';
+//import { createApi } from 'unsplash-js';
 import React from 'react'
 import textos from "./Textos.json"
 
@@ -9,33 +9,33 @@ export default function Habilidades(props) {
   const [fotos,setFotos] = React.useState(0)
   const[rnd,setRnd] = React.useState([Math.floor(Math.random()*10),Math.floor(Math.random()*10),Math.floor(Math.random()*10),Math.floor(Math.random()*10)])
   const [palavra,setPalavra] = React.useState('cat')
-  const unsplash = createApi({
-    accessKey: 'Gu8dfEXUDsSxJIcI9dn0tcAtfbIZAI4nrtjnh_3jVzo',
-    //fetch: nodeFetch,
-  });
-  React.useEffect(() => {
-  unsplash.search.getPhotos({
-    query: palavra,
-    page: 1,
-    perPage: 10,
-  }).then(result => {
-    const dados = result.response;
-    setFotos(dados.results);
-  });
-  }
-  )
+  // const unsplash = createApi({
+  //   accessKey: 'Gu8dfEXUDsSxJIcI9dn0tcAtfbIZAI4nrtjnh_3jVzo',
+  //   //fetch: nodeFetch,
+  // });
+  // React.useEffect(() => {
+  // // unsplash.search.getPhotos({
+  // //   query: palavra,
+  // //   page: 1,
+  // //   perPage: 10,
+  // // }).then(result => {
+  // //   const dados = result.response;
+  // //   setFotos(dados.results);
+  // // });
+  // }
+  // )
   function procurar(event) {
     setPalavra(document.querySelector('#inputFoto').value)
     event.preventDefault();
 
   }
-  function mover(evento){
-    var width = window.innerWidth > 767 ? 600 : 351
-    var i = evento.target.className === "arrow left" ? -1 : 1
-    var slide = document.querySelectorAll("#slideshow li")
-    id_ativo.current = (id_ativo.current + i) < 0 ? 0 : (id_ativo.current + i)>= slide.length ? (slide.length-1) : (id_ativo.current +i)
-    document.querySelector("#slideshow").style.transform = "translateX( "+(id_ativo.current*-width)+"px)"
-  }
+  // function mover(evento){
+  //   var width = window.innerWidth > 767 ? 600 : 351
+  //   var i = evento.target.className === "arrow left" ? -1 : 1
+  //   var slide = document.querySelectorAll("#slideshow li")
+  //   id_ativo.current = (id_ativo.current + i) < 0 ? 0 : (id_ativo.current + i)>= slide.length ? (slide.length-1) : (id_ativo.current +i)
+  //   document.querySelector("#slideshow").style.transform = "translateX( "+(id_ativo.current*-width)+"px)"
+  // }
     return (
         <div id="divHabilidades">
           <div id="FormsSlider">
@@ -47,7 +47,7 @@ export default function Habilidades(props) {
             <button onClick={procurar}>{textos[idioma]["Experimentos"]["procurar"]}</button>
             </form>
           </div>
-          <div id = "SlideDiv">
+          {/* <div id = "SlideDiv">
 
             {id_ativo.current !== 0 && <div className='arrow left' onClick={mover}>&#8249;</div>}
             <ul id="slideshow">
@@ -57,7 +57,7 @@ export default function Habilidades(props) {
               <li>{fotos!==0 && <img src={fotos[rnd[3]].urls.raw +"&fit=crop&crop=faces&w=512&h=512"} alt="fotos" id="foto_4"></img>}</li>
             </ul>
             {id_ativo.current !== 3 && <div className='arrow right' onClick={mover}>&#8250;</div>}
-          </div>
+          </div> */}
  <svg
   className="waves"
   xmlns="http://www.w3.org/2000/svg"
