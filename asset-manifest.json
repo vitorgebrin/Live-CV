@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Live-CV/static/css/main.1bbcfc74.css",
+    "main.css": "/Live-CV/static/css/main.bb6cc137.css",
     "main.js": "/Live-CV/static/js/main.5cd8b4d1.js",
     "static/media/ChemicalE.jpg": "/Live-CV/static/media/ChemicalE.d7731a672155e7bb2a81.jpg",
     "static/media/foto.png": "/Live-CV/static/media/foto.b34f930a36c7697cb4b3.png",
@@ -11,11 +11,11 @@
     "static/media/moon.png": "/Live-CV/static/media/moon.759254c53a5bc845b640.png",
     "static/media/sun.png": "/Live-CV/static/media/sun.af01370ab6ac051a5301.png",
     "index.html": "/Live-CV/index.html",
-    "main.1bbcfc74.css.map": "/Live-CV/static/css/main.1bbcfc74.css.map",
+    "main.bb6cc137.css.map": "/Live-CV/static/css/main.bb6cc137.css.map",
     "main.5cd8b4d1.js.map": "/Live-CV/static/js/main.5cd8b4d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bbcfc74.css",
+    "static/css/main.bb6cc137.css",
     "static/js/main.5cd8b4d1.js"
   ]
 }
