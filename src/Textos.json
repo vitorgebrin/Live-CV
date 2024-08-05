@@ -1,0 +1,73 @@
+{
+"pt":
+        {
+        "texto-inicial":
+            {   
+            "titulo":"Sobre mim",
+            "texto_1":"Nascido em São Paulo (Brasil), sou formado em Engenharia Química pela Universidade Federal de São Carlos. Hoje, moro em Napoli (Italia) e trabalho integralmente como Front-end Developer da agência de Marketing Hashtag. Embora a minha formação e o meu campo de trabalho pareçam um tanto distantes, o que os une (e o que mais me interessa e que gosto de fazer) é o pensamento lógico.",
+            "texto_2":"Resolver problemas de formas diferentes e estar sempre aprendendo novos métodos e técnicas de abordá-los foi o que me motivou a estudar engenharia e o que, eu acredito, me torna um bom programador. Sou sempre focado e dedicado naquilo que tomo como objetivo, e busco sempre aprender com cada desafio que encontro. Trabalhar tanto em grupo quanto sozinho para mim é um prazer, ainda mais se o trabalho exigir criatividade e inovação."
+            },
+        "Quem Sou": "Quem Sou",
+        "Historico":"Histórico",
+        "Experimentacao":"Experimentação",
+        "Experimentos":{
+            "texto gerador":"Escolha uma palavra para procurar 4 fotos aleatórias do inventário de fotos do Unsplash",
+            "procurar": "Procurar"
+        }
+        
+        }
+    ,
+"en":
+    {
+    "texto-inicial":
+        {   
+        "titulo":"About me",
+        "texto_1":"Born in São Paulo (Brazil), I graduated in Chemical Engineering from the Federal University of São Carlos. Today, I live in Napoli (Italy) and work full-time as a Front-end Developer for the Hashtag marketing agency. Although my bachelor and my field of work seem a bit distant, what unites them (and what interests me the most and what I like to do) is logical thinking.",
+        "texto_2":"Solving problems in different ways and always learning new methods and techniques to approach them is what motivated me to study engineering and what, I believe, makes me great at coding. I am always focused and dedicated to what I set my sights on, and I always seek to learn from every challenge I encounter. Working both in a group and alone is a pleasure for me, as long as the work requires creativity and innovation."
+        },
+    "Quem Sou": "About me",
+    "Historico":"Background",
+    "Experimentacao":"Experiments",
+    "Experimentos":{
+        "texto gerador":"Choose a word to search for 4 random photos from Unsplash's image library",
+        "procurar": "Search"
+    }
+    }
+    ,
+"it":
+    {
+    "texto-inicial":
+        {   
+        "titulo":"Sobre mim",
+        "texto_1":"Nato a São Paulo (Brasile), mi sono laureato in Ingegneria Chimica presso l'Università Federale di São Carlos. Oggi vivo a Napoli (Italia) e lavoro a tempo pieno come Front-end Developer per l'agenzia di digital marketing, Hashtag. Nonostante la mia formazione e il mio campo di lavoro sembrino un po' distanti, ciò che li accomuna (e ciò che mi interessa di più e che mi piace fare) è il pensiero logico.",
+        "texto_2":"Risolvere i problemi in modi diversi e imparare sempre nuovi metodi e tecniche per affrontarli è ciò che mi ha motivato a studiare ingegneria e ciò che, credo, mi rende un ottimo programmatore. Sono sempre concentrato e dedito e cerco sempre di imparare da ogni sfida che incontro. Lavorare sia in gruppo che da solo è per me un piacere, ancor di più se il lavoro richiede creatività e innovazione."
+        },
+    "Quem Sou": "Chi sono",
+    "Historico":"Storico",
+    "Experimentacao":"Sperimentale",
+    "Experimentos":{
+        "texto gerador":"Scegli una parola per cercare 4 foto a caso dall'inventario fotografico di Unsplash",
+        "procurar": "Cerca"
+    }
+    
+    }
+    ,
+    "de":
+    {
+    "texto-inicial":
+        {   
+        "titulo":"Über mich",
+        "texto_1":"Ich wurde in São Paulo (Brasilien) geboren und habe an der Universidade Federal de São Carlos Chemieingenieurwesen studiert. Heute lebe ich in Neapel (Italien) und arbeite hauptberuflich als Frontend-Entwickler für die Hashtag-Marketing-Agentur. Auch wenn meine Ausbildung und mein Arbeitsgebiet etwas voneinander entfernt zu sein scheinen, was sie verbindet (und was mich am meisten interessiert und ich gerne mache), ist logisches Denken.",
+        "texto_2":"Probleme auf unterschiedliche Weise zu lösen und immer neue Methoden und Techniken zu erlernen, um sie anzugehen, hat mich motiviert, Ingenieur zu werden und ist meiner Meinung nach das, was mich zu einem guten Programmierer macht. Ich bin immer konzentriert und engagiert bei dem, was ich mir vorgenommen habe, und ich versuche immer, aus jeder Herausforderung etwas zu lernen. Die Arbeit sowohl in Gruppe als auch alleine macht mir Freude, umso mehr, wenn die Arbeit Kreativität und Innovation erfordert."
+        },
+    "Quem Sou": "Über mich",
+    "Historico":"Lebenslauf",
+    "Experimentacao":"Versuchsfeld",
+    "Experimentos":{
+        "texto gerador":"Wählen Sie ein Wort, um nach 4 zufälligen Fotos aus der Bildbibliothek von Unsplash zu suchen",
+        "procurar": "Suche"
+    }
+    
+    }
+
+}

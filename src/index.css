@@ -1,13 +1,549 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+body{
+  font-family:"Roboto Condensed", sans-serif;
+  margin:0;
+  padding:0;
+  height:100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root{height:100%}
+.White{
+  --appBgColor: #EAE8FF;
+  --appTextColor:#ffffff;
+  --appSubColor:#acacac;
+  --mainColor:rgb(223, 18, 134);
+  --subColor:rgb(73, 100, 218);
+  --generalTextColor:#000000;
+  --generalBgColor:#ffffff;
+  --navAnimation: myAnimation;
+  --navGradient:linear-gradient(163deg, rgb(73, 100, 218) 17%, rgba(146, 73, 221, 0.8) 29.6%, rgba(176, 60, 196, 0.6) 42.2%, rgba(192, 55, 173, 0.4) 54.8%, rgba(217, 46, 116, 0) 80%), radial-gradient(100% 100% at 10% 100%,rgba(146, 73, 221, 0.8) 0%,rgba(192, 55, 173, 0.4)20%, rgb(203, 97, 232) 30%, #da49e8 44.29%, #db44d7 68.57%, #da3fc8 82.86%, rgb(223, 18, 134) 100%);
 }
+
+.Dark{
+  --appBgColor: #333;
+  --appTextColor:#ffffff;
+  --appSubColor:#ededed;
+  --mainColor:rgb(73, 100, 218);
+  --subColor:rgb(223, 18, 134);
+  --generalTextColor:#ffffff;
+  --generalBgColor:#333;
+  --navAnimation: myDarkAnimation;
+  --navGradient:linear-gradient(163deg, rgb(73, 100, 218) 17%, rgba(146, 73, 221, 0.8) 29.6%, rgba(176, 60, 196, 0.6) 42.2%, rgba(192, 55, 173, 0.4) 54.8%, rgba(217, 46, 116, 0) 80%), radial-gradient(100% 100% at 10% 100%,rgba(146, 73, 221, 0.8) 0%,rgba(192, 55, 173, 0.4)20%, rgb(203, 97, 232) 30%, #da49e8 44.29%, #db44d7 68.57%, #da3fc8 82.86%, rgb(223, 18, 134) 100%);
+}
+  .App{
+    height:100%;
+    padding-bottom:20px;
+    color: var(--appTextColor);
+    background-color: var(--appBgColor);
+  transition: background-color 2s ease;}
+
+
+p{font-size:16px;margin:20px}
+
+h2{font-size:24px; text-transform:uppercase; margin: 30px
+}
+input{height: 36px;
+  border: none;
+  font-size: 16px;}
+.lista {
+  order:2;
+  display:flex;
+  list-style: none;
+  align-content: flex-end;
+  font-weight:500;
+  letter-spacing: 2px;
+  margin:0;
+  
+}
+.lista li{
+  padding:25px 15px;
+  margin-right:5px;
+  transition: background-color 0.3s ease-in 10ms;
+}
+
+.lista li:hover{
+  background-color:rgba(0, 0, 0, 0.2);
+}
+/* essa parte está diferente pois consiste numa animação finita*/
+.navbar {
+  height:74px;
+  overflow-x:hidden;
+  align-items: center;
+  background-image:var(--navGradient);
+  background-size:400% 400%;
+  margin:0;
+  padding:0;
+  flex-direction: row-reverse;
+  display:flex;
+  box-shadow: 2px 2px 10px  rgba(0,0,0,0.3);
+  animation: var(--navAnimation) 5s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes myAnimation{
+  0% {
+  background-position: 0% 50%;
+}
+100% {
+  background-position: 100% 50%;
+}
+
+}
+@keyframes myDarkAnimation{
+  0% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+
+}
+
+/*Menu desktop*/
+@media only screen and (min-width:767px){
+#mobile_menu{display:none}
+.mobile_menu_logo{display:none}
+  
+}
+
+
+/* Menu mobile*/
+
+@media only screen and (max-width:767px){
+  #desktop_menu{display:none}
+  .logo_header{margin-left:0 !important;}
+  #mobile_menu{
+    transition:all 0.5s ease-in;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index:999;
+    left:100%;
+    top: 74px;
+    background: var(--appBgColor);
+  }
+  #language_menu{width:170px !important}
+  .mobile_menu_logo{
+    transition: all 1s ease;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image:url("./menu.png");}
+    .mobile_menu_logo.active_menu{background-image:url("./cross.png") !important;}
+  .active_menu{left:0 !important;}
+  #mobile_menu ul {
+    display:block;
+    list-style: none;
+    padding:0;
+    margin:0;
+  }
+  #mobile_menu li {
+    display:block;
+    font-weight:500;
+    letter-spacing: 2px;
+    color:var(--generalTextColor);
+    padding: 40px;
+    font-size: 22px;
+    border-bottom: 1px solid var(--appSubColor);
+  }
+  #mobile_menu li:active,#mobile_menu li:focus{
+    background-color: #959595;
+  }
+}
+/* First Page*/
+#divInicial {
+  background-color: var(--generalBgColor);
+  transition: background-color 2s ease;
+  border-radius: 40px;
+  margin:3% 16%;
+  display:flex;
+  padding:5%;
+  flex-wrap:wrap;
+  box-shadow: 2px 4px 12px 0px rgba(0,0,0,0.15);
+}
+#profilePic{
+  margin:0% 2%;
+  width: 20%;
+  border-radius: 50%;
+  border: 2px solid var(--mainColor);
+}
+.profileText{
+  width:100%;
+  text-align: left;
+  text-indent:19px
+}
+.text_1{margin: 4% 2% 1%;}
+.text_2{margin: 1% 2%;}
+
+#profileIntro{
+  padding-top: 4%;
+  text-align: right;
+  width:70%;
+}
+
+.textoMedio {
+  color:var(--generalTextColor);
+  font-size: 19px;
+  font-weight: 400; 
+}
+
+@media only screen and (max-width:767px){
+
+  #divInicial {
+    margin:100px 3% 200px;
+  }
+  p.textoMedio{
+    font-size:16px;
+    padding-top:20px
+  }
+
+}
+/* animação de ondas - início*/
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)  infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 16s;
+}
+
+.parallax > use:nth-child(5) {
+  animation-delay: -6s;
+  animation-duration: 20s;
+}
+
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+.waves {
+  bottom:0;
+  position:fixed;
+  width: 100%;
+  margin-bottom:-7px; /*Fix for safari gap*/
+  min-height:100px;
+  max-height:150px;
+}
+
+#divHabilidades{
+  width:90%;
+  margin:40px auto 100px;
+  display:flex;
+}
+
+
+@media only screen and (max-width:767px){
+  #divHabilidades{ flex-direction:column; margin:20px 20px 80px}
+  #FormsSlider{width:100% !important; margin: 0 0 80px !important}
+  .waves{margin-left:-20px}
+  #slideshow{width:351px !important}
+  p{margin:8px !important}
+
+}
+/* animação de ondas - fim*/
+
+/* Experiencias - início*/
+
+.listaIcones{
+  justify-content:space-between;
+  display:flex;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+
+}
+/* para evitar selecionar o pseudo-element de before com Javascript, criei um novo elemento, contudo deixarei aqui o CSS anterior para recordação
+.linhaTempo:before{
+  z-index: -1;
+  position: absolute;
+  content: ' ';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, rgb(255,80,80,0) 0%, rgb(73, 100, 218) 8%, rgb(73, 100, 218) 92%, rgba(255,80,80,0) 100%);
+}
+*/
+
+#linhaTempo{
+  margin: 150px 4% 0 4%;
+  display: block;
+  height: 3px;
+  background: linear-gradient(to right, rgb(255,80,80,0) 0%, var(--mainColor) 8%, var(--subColor) 92%, rgba(255,80,80,0) 100%);
+  transition: all 1s ease-in;
+}
+
+
+
+.iconeEsferico {
+    display:block ;
+    width: 10px;
+    height: 10px;
+    margin-top:-7px;
+    margin-inline: 20px;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid var(--subColor);
+    z-index: 10;
+}
+.icone{
+  color:var(--generalTextColor);
+  text-align:center;
+}
+.icone p{
+  margin-top:-40px;
+  position:absolute;
+  font-style: italic;
+  transform: translateX(-38%);
+  font-size:18px;
+  font-weight:600;
+  color:var(--generalTextColor);
+
+}
+
+.selecionado {
+  background:var(--subColor);
+}
+
+.cardTempo {
+  color:var(--generalTextColor);
+  padding:1% 2%;
+  margin: 2% 10%;
+  background-color:var(--generalBgColor);
+  transition: background-color 2s ease;
+  border-radius: 20px;
+  box-shadow: 2px 4px 12px 0px rgba(0,0,0,0.15);
+  display:flex;
+animation: fadeIn 1.5s;
+}
+
+.cardTempo h2{
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.cardTempo em{
+  font-size:1.4em;
+  font-style: italic;
+  margin: 10px auto;
+
+}
+
+.cardTempo p{
+  font-size:1.2em;
+  color: #959595;
+
+}
+
+.fotoCard img{
+  width:300px;
+  padding-right:4%;
+  border-radius: 20%;
+  }
+.cardContent{
+  width:100%;
+  margin:0;
+  padding:0 2%;
+}
+.flexCard{
+  display:flex
+}
+.flexCard div{
+  flex:0 0 40%
+}
+.CardImage img{width:100%} 
+
+@media only screen and (max-width:767px){
+#linhaTempo,.listaIcones{display:none}
+.cardTempo{margin:40px 3% !important}
+#divExperiencias{padding:100px 0 150px}
+.cardTempo h2{font-size:32px}
+.flexCard{flex-direction: column-reverse !important;}
+#formsAnos form{display:flex;justify-content: center;}
+#formsAnos form legend{transition:all 1s ease;color:var(--generalTextColor);margin-inline:20px;font-size:20px}
+#formsAnos form select{width: 33%;text-align: center;font-size: 16px;}
+}
+  /* Experiencias - fim*/
+
+#SlideDiv {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+
+#slideshow{
+  margin:0;
+  padding:0;
+  list-style: none;
+  white-space: nowrap;
+  width: 600px;
+  height: 400px;
+}
+
+#slideshow li{
+  width:100%;
+  height:100%;
+  display:inline-block
+
+}
+#slideshow li img{
+  height:100%;
+}
+#FormsSlider{
+  padding: 2%;
+  margin:auto;
+  width:50%;
+}
+
+#FormsSlider p, #FormsSlider h2{ color:var(--generalTextColor)}
+#FormsSlider button{
+  cursor:pointer;
+  background: var(--mainColor);
+  border: none;
+  padding: 2%;
+  text-transform: uppercase;
+  color: var(--appTextColor);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  border-radius: 4px;
+  transition: all 0.5s ease-in;
+}
+
+#FormsSlider button:hover{
+  background:var(--subColor);
+  transform:translateY(-4px)
+}
+.arrow{
+  position: absolute;
+top: 50%;
+transform: translateY(-50%);
+font-size: 40px;
+background: rgba(0,0,0,0.2);
+border-radius: 50%;
+height: 50px;
+width: 50px;
+z-index: 9;
+cursor:pointer
+}
+.left{
+  left:20px
+}
+.right{
+  right:20px
+}
+
+
+/*language do header*/
+.logo_header{width:20px;height:20px;margin-inline:25px}
+#langDiv{
+  order:1;
+  margin-bottom:-4px;
+  display: flex;
+  align-items: center;
+height:90%}
+#language_menu{
+  cursor: pointer;
+  list-style: none;
+  top:57px;
+  width:140px;
+  position: absolute;
+  background: var(--appBgColor);
+  transition: background-color 2s ease;
+  transform:translateX(-50%);
+  padding:0px;
+  display:none;
+  z-index:999
+}
+
+#langDiv:hover #language_menu{display:block}
+
+#language_menu li {transition: background-color 0.4s ease;background-color:rgba(0,0,0,0.1);color:var(--generalTextColor);margin:0;display:block;padding: 15px;border-bottom: 1px solid var(--appSubColor)}
+#language_menu li:hover{background-color:rgba(0,0,0,0.3)}
+/* keyframes*/
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+/*dark mode button*/
+  #darkmode_button{display:none}
+	label {
+    display: flex;
+    align-items: center;
+		width: 100%;
+    height: 30px;
+    background: var(--appBgColor);
+		position: relative;
+		cursor: pointer;
+    transition:all 2s ease;
+    box-shadow: 2px 4px 12px 0px rgba(0,0,0,0.55),-3px -3px 4px 0px rgba(255,255,255,0.5);
+		border-radius: 1.6rem;
+  }
+		label::after {
+			content: "";
+      position: absolute;
+      left: 5px;
+			width: 20px;
+			height: 20px;
+      border-radius: 50%;
+      background: rgba(0,0,0,0.2);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image:url("./sun.png");
+      background-size: contain;
+      transition: all 2s ease;
+      }
+    label::before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      border-radius: inherit;
+      background: var(--appBgColor);
+      opacity: 0;
+      transition: all 2s ease;
+    }
+    #darkmode_button:checked + label{
+      box-shadow: 2px 2px 8px 0px rgba(255,255,255,0.35),-3px -3px 4px 0px rgba(0,0,0,0.5);
+
+    }
+    #darkmode_button:checked + label::before{ opacity:1}
+    #darkmode_button:checked + label::after{ 
+      left:58%;
+      background-size: contain;
+      background-size: 70%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image:url("./moon.png");
+    }
+    #darkModeDiv{position: absolute;
+      left: 20px;
+      top: 20px;
+      width: 60px;}
+
