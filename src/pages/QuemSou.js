@@ -1,5 +1,5 @@
-import foto from './foto.png'
-import textos from "./Textos.json"
+import foto from '../images/foto.png'
+import textos from "../json/Textos.json"
 
 export default function QuemSou(props) {
 

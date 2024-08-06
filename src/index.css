@@ -132,8 +132,8 @@ input{height: 36px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-image:url("./menu.png");}
-    .mobile_menu_logo.active_menu{background-image:url("./cross.png") !important;}
+    background-image:url("./images/menu.png");}
+    .mobile_menu_logo.active_menu{background-image:url("./images/cross.png") !important;}
   .active_menu{left:0 !important;}
   #mobile_menu ul {
     display:block;
@@ -516,7 +516,7 @@ height:90%}
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center;
-      background-image:url("./sun.png");
+      background-image:url("./images/sun.png");
       background-size: contain;
       transition: all 2s ease;
       }
@@ -540,7 +540,7 @@ height:90%}
       background-size: 70%;
       background-repeat: no-repeat;
       background-position: center;
-      background-image:url("./moon.png");
+      background-image:url("./images/moon.png");
     }
     #darkModeDiv{position: absolute;
       left: 20px;

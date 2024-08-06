@@ -1,15 +1,11 @@
 import React from "react"
-import cards from "./Cards.json"
-import ChemicalE from "./ChemicalE.jpg"
-import flag from "./flag.jpg"
-import html from "./html-css-javascript.jpg"
-import peg from "./peg.jpg"
-import hashtagb from "./hashtag_logo_b.png"
-import hashtagw from "./hashtag_logo_w.png"
+import cards from "../json/Cards.json"
+import hashtagb from "../images/hashtag_logo_b.png"
+import hashtagw from "../images/hashtag_logo_w.png"
 
 
 export default function Experiencias(props) {
-    var imagens = [flag,ChemicalE,peg,html,props.darkmode === true ? hashtagw:hashtagb]
+    var imagens = [hashtagw,hashtagw,hashtagw,hashtagw,props.darkmode === true ? hashtagw:hashtagb]
     var idioma =props.idioma
     const [card,setCard] = React.useState(cards[idioma][0])
     const [porcentagem,setPorcentagem] = React.useState(8)

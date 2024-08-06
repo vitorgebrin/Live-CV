@@ -1,6 +1,6 @@
 //import { createApi } from 'unsplash-js';
 import React from 'react'
-import textos from "./Textos.json"
+import textos from "../json/Textos.json"
 
 export default function Habilidades(props) {
   var idioma =props.idioma

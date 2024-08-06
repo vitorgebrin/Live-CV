@@ -1,11 +1,11 @@
-import './App.css';
-import QuemSou from './QuemSou'
-import Habilidades from './Habilidades'
-import Experiencias from './Experiencias'
 import React from 'react';
+import QuemSou from './pages/QuemSou'
+import Habilidades from './pages/Habilidades'
+import Experiencias from './pages/Experiencias'
+import lg_ico from './images/language_icon.png'
+import textos from "./json/Textos.json"
+import './App.css'
 import './index.css'
-import lg_ico from './language_icon.png'
-import textos from "./Textos.json"
 
 function App() {
   const [darkOn,setDarkOn] = React.useState(false)
