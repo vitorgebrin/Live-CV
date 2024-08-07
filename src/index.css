@@ -1,10 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 
 body{
-  font-family:"Roboto Condensed", sans-serif;
+  font-family:"Inter", sans-serif;
   margin:0;
   padding:0;
   height:100%;
@@ -50,7 +51,6 @@ input{height: 36px;
   border: none;
   font-size: 16px;}
 .lista {
-  order:2;
   display:flex;
   list-style: none;
   align-content: flex-end;
@@ -73,15 +73,12 @@ input{height: 36px;
   height:74px;
   overflow-x:hidden;
   align-items: center;
-  background-image:var(--navGradient);
-  background-size:400% 400%;
   margin:0;
   padding:0;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  justify-content: space-between;
   display:flex;
   box-shadow: 2px 2px 10px  rgba(0,0,0,0.3);
-  animation: var(--navAnimation) 5s ease;
-  animation-fill-mode: forwards;
 }
 @keyframes myAnimation{
   0% {
@@ -458,7 +455,7 @@ cursor:pointer
 
 
 /*language do header*/
-.logo_header{width:20px;height:20px;margin-inline:25px}
+.logo_header{width:20px;height:20px;margin-inline:5px;}
 #langDiv{
   order:1;
   margin-bottom:-4px;

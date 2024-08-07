@@ -1,6 +1,6 @@
 import foto from '../images/foto.png'
 import textos from "../json/Textos.json"
-
+import { Box } from '@chakra-ui/react'
 export default function QuemSou(props) {
 
   var idioma =props.idioma
