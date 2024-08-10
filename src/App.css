@@ -12,3 +12,12 @@
 @media only screen and (min-width:992px) {
   .mobile{display:none !important}
 }
+
+.progressBar{
+  animation: myAnim 3s;
+}
+
+@keyframes myAnim {
+  0% {width:0%}
+  100% {width:96.5%}
+}

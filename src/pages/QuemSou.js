@@ -2,7 +2,7 @@ import helloSticker from '../images/hello-sticker.png'
 import textos from "../json/Textos.json"
 import { Box, Heading, Highlight, Flex, Container, Text,useColorModeValue } from '@chakra-ui/react'
 export default function QuemSou(/* props */) {
-  const color = useColorModeValue('gray.100', 'gray.700')
+  const colorSec = useColorModeValue('gray.100', 'gray.700')
   /* var idioma =props.idioma */
   return (
     <Container maxWidth="100vw" justifyContent="center">
@@ -18,7 +18,7 @@ export default function QuemSou(/* props */) {
         </Heading>
       </Box>
 
-        <Flex direction={["column-reverse","row"]} maxWidth="80vw" bg={color} m="auto">
+        <Flex direction={["column-reverse","row"]} maxWidth="80vw" bg={colorSec} m="auto">
           <Box p={["10px","100px"]} w="100%">
             <Heading as="h2" size="lg" noOfLines={1}>About Me</Heading>
             <Text fontSize='lg' p="10px">
