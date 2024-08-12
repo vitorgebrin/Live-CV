@@ -1,51 +1,57 @@
-import React from "react"
-import cards from "../json/Cards.json"
-import hashtagb from "../images/hashtag_logo_b.png"
-import hashtagw from "../images/hashtag_logo_w.png"
-import { Card, CardHeader, CardBody, CardFooter, Container, Text, Button, Heading, SimpleGrid } from '@chakra-ui/react'
-
+import React, { useRef, useState,useEffect } from "react"
+import experienciasText from "../json/Experiencias.json"
+import { Card, CardHeader, CardBody, CardFooter, Container, Text, Button, Heading, Spacer } from '@chakra-ui/react'
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination,Navigation } from 'swiper/modules';
+import "swiper/css";
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 export default function Experiencias(props) {
     var idioma = props.idioma
+    const [width, setWidth] = useState(window.innerWidth);
 
+  useEffect(() => {
+    const handleResize = () => setWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
     return (
-        <Container maxWidth="80vw" justifyContent="center" py="100px">
-            <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(200px, 1fr))'>
-                <Card>
-                    <CardHeader>
-                        <Heading size='md'> Customer dashboard</Heading>
-                    </CardHeader>
-                    <CardBody>
-                        <Text>View a summary of all your customers over the last month.</Text>
-                    </CardBody>
-                    <CardFooter>
-                        <Button>View here</Button>
-                    </CardFooter>
-                </Card>
-                <Card>
-                    <CardHeader>
-                        <Heading size='md'> Customer dashboard</Heading>
-                    </CardHeader>
-                    <CardBody>
-                        <Text>View a summary of all your customers over the last month.</Text>
-                    </CardBody>
-                    <CardFooter>
-                        <Button>View here</Button>
-                    </CardFooter>
-                </Card>
-                <Card>
-                    <CardHeader>
-                        <Heading size='md'> Customer dashboard</Heading>
-                    </CardHeader>
-                    <CardBody>
-                        <Text>View a summary of all your customers over the last month.</Text>
-                    </CardBody>
-                    <CardFooter>
-                        <Button>View here</Button>
-                    </CardFooter>
-                </Card>
-            </SimpleGrid>
+        <Container maxWidth={["100vw","80vw"]} justifyContent="center" py="100px">
+            <Heading lineHeight='tall' fontSize={["2xl","4xl"]}>
+           {experienciasText["de"]["sectionHeader"]["title"]}
+        </Heading>
+            <Swiper
+                slidesPerView={width > 767 ? 3 : 1}
+                spaceBetween={30}
+                navigation={width > 767 ? true : false}
+                pagination={{
+                    clickable: true,
+                }}
+                modules={[Pagination,Navigation]}
+                className="mySwiper"
+            >
+                 {experienciasText[idioma]["Cards"].map((cardTexts, index) => (
+                <SwiperSlide>
+                    <Card shadow="lg">
+                        <CardHeader>
+                            <Heading size='md'> {cardTexts["title"]}</Heading>
+                        </CardHeader>
+                        <CardBody>
+                            <Text>{cardTexts["text"]}</Text>
+                        </CardBody>
+                        <CardFooter>
+                            <Button>{cardTexts["button"]}</Button>
+                        </CardFooter>
+                    </Card>
+                </SwiperSlide>
+                 ))}
+                
+                
+            </Swiper>
+
         </Container>
     )
 }

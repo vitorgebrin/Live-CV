@@ -1,0 +1,207 @@
+{
+    "pt": {
+        "tabTitles":[
+            "Work Experience",
+            "Education"
+        ],
+        "CardsWorks": [
+            {
+                "year":"2016 - 2021",
+                "title":"Title 1",
+                "text":"Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1",
+                "button":"button 1"
+
+            },
+            {
+                "year":"2022 - 2023",
+                "title":"Title 2",
+                "text":"Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2",
+                "button":"button 2"
+
+            },
+            {
+                "year":"2024",
+                "title":"Title 3",
+                "text":"Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3",
+                "button":"button 3"
+
+            }
+        ],"CardsEducation": [
+            {
+                "year":"2016 - 2021",
+                "title":"Title 1",
+                "text":"Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1",
+                "button":"button 1"
+
+            },
+            {
+                "year":"2022 - 2023",
+                "title":"Title 2",
+                "text":"Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2",
+                "button":"button 2"
+
+            },
+            {
+                "year":"2024",
+                "title":"Title 3",
+                "text":"Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3",
+                "button":"button 3"
+
+            }
+        ]
+    },
+    "en": {
+        "tabTitles":[
+            "Work Experience",
+            "Education"
+        ],
+        "CardsWorks": [
+            {
+                "year":"2016 - 2021",
+                "title":"Title 1",
+                "text":"Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1",
+                "button":"button 1"
+
+            },
+            {
+                "year":"2022 - 2023",
+                "title":"Title 2",
+                "text":"Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2",
+                "button":"button 2"
+
+            },
+            {
+                "year":"2024",
+                "title":"Title 3",
+                "text":"Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3",
+                "button":"button 3"
+
+            }
+        ],"CardsEducation": [
+            {
+                "year":"2016 - 2021",
+                "title":"Title 1",
+                "text":"Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1",
+                "button":"button 1"
+
+            },
+            {
+                "year":"2022 - 2023",
+                "title":"Title 2",
+                "text":"Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2",
+                "button":"button 2"
+
+            },
+            {
+                "year":"2024",
+                "title":"Title 3",
+                "text":"Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3",
+                "button":"button 3"
+
+            }
+        ]
+    },
+    "it": {
+        "tabTitles":[
+            "Work Experience",
+            "Education"
+        ],
+        "CardsWorks": [
+            {
+                "year":"2016 - 2021",
+                "title":"Title 1",
+                "text":"Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1",
+                "button":"button 1"
+
+            },
+            {
+                "year":"2022 - 2023",
+                "title":"Title 2",
+                "text":"Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2",
+                "button":"button 2"
+
+            },
+            {
+                "year":"2024",
+                "title":"Title 3",
+                "text":"Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3",
+                "button":"button 3"
+
+            }
+        ],
+        "CardsEducation": [
+            {
+                "year":"2016 - 2021",
+                "title":"Title 1",
+                "text":"Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1",
+                "button":"button 1"
+
+            },
+            {
+                "year":"2022 - 2023",
+                "title":"Title 2",
+                "text":"Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2",
+                "button":"button 2"
+
+            },
+            {
+                "year":"2024",
+                "title":"Title 3",
+                "text":"Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3",
+                "button":"button 3"
+
+            }
+        ]
+    },
+    "de": {
+        "tabTitles":[
+            "Work Experience",
+            "Education"
+        ],
+        "CardsWorks": [
+            {
+                "year":"2016 - 2021",
+                "title":"Title 1",
+                "text":"Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1",
+                "button":"button 1"
+
+            },
+            {
+                "year":"2022 - 2023",
+                "title":"Title 2",
+                "text":"Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2",
+                "button":"button 2"
+
+            },
+            {
+                "year":"2024",
+                "title":"Title 3",
+                "text":"Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3",
+                "button":"button 3"
+
+            }
+        ],"CardsEducation": [
+            {
+                "year":"2016 - 2021",
+                "title":"Title 1",
+                "text":"Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1",
+                "button":"button 1"
+
+            },
+            {
+                "year":"2022 - 2023",
+                "title":"Title 2",
+                "text":"Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2",
+                "button":"button 2"
+
+            },
+            {
+                "year":"2024",
+                "title":"Title 3",
+                "text":"Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3",
+                "button":"button 3"
+
+            }
+        ]
+    }
+}

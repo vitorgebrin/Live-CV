@@ -1,0 +1,110 @@
+{
+    "pt": {
+        "sectionHeader": {
+            "title": "Work Portfolio"
+        },
+        "Cards": [
+            {
+                "title": "card 1",
+                "text": "View a summary of all your customers over the last month.",
+                "button": "button 1"
+            },
+            {
+                "title": "card 2",
+                "text": "View a summary of all your customers over the last month.",
+                "button": "button 2"
+            },
+            {
+                "title": "card 3",
+                "text": "View a summary of all your customers over the last month.",
+                "button": "button 3"
+            },
+            {
+                "title": "card 4",
+                "text": "View a summary of all your customers over the last month.",
+                "button": "button 4"
+            }
+        ]
+    },
+    "en": {
+        "sectionHeader": {
+            "title": "Work Portfolio"
+        },
+        "Cards": [
+            {
+                "title": "card 1",
+                "text": "View a summary of all your customers over the last month.",
+                "button": "button 1"
+            },
+            {
+                "title": "card 2",
+                "text": "View a summary of all your customers over the last month.",
+                "button": "button 2"
+            },
+            {
+                "title": "card 3",
+                "text": "View a summary of all your customers over the last month.",
+                "button": "button 3"
+            },
+            {
+                "title": "card 4",
+                "text": "View a summary of all your customers over the last month.",
+                "button": "button 4"
+            }
+        ]
+    },
+    "it": {
+        "sectionHeader": {
+            "title": "Work Portfolio"
+        },
+        "Cards": [
+            {
+                "title": "card 1",
+                "text": "View a summary of all your customers over the last month.",
+                "button": "button 1"
+            },
+            {
+                "title": "card 2",
+                "text": "View a summary of all your customers over the last month.",
+                "button": "button 2"
+            },
+            {
+                "title": "card 3",
+                "text": "View a summary of all your customers over the last month.",
+                "button": "button 3"
+            },
+            {
+                "title": "card 4",
+                "text": "View a summary of all your customers over the last month.",
+                "button": "button 4"
+            }
+        ]
+    },
+    "de": {
+        "sectionHeader": {
+            "title": "Work Portfolio"
+        },
+        "Cards": [
+            {
+                "title": "card 1",
+                "text": "View a summary of all your customers over the last month.",
+                "button": "button 1"
+            },
+            {
+                "title": "card 2",
+                "text": "View a summary of all your customers over the last month.",
+                "button": "button 2"
+            },
+            {
+                "title": "card 3",
+                "text": "View a summary of all your customers over the last month.",
+                "button": "button 3"
+            },
+            {
+                "title": "card 4",
+                "text": "View a summary of all your customers over the last month.",
+                "button": "button 4"
+            }
+        ]
+    }
+}

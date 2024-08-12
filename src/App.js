@@ -2,6 +2,7 @@ import React from 'react';
 import QuemSou from './pages/QuemSou'
 import Habilidades from './pages/Habilidades'
 import Experiencias from './pages/Experiencias'
+import Werdegang from './pages/Werdegang'
 import lg_ico from './images/language_icon.png'
 import myIcon from './images/letter-v.png'
 import textos from "./json/Textos.json"
@@ -30,7 +31,7 @@ import {
 function App() {
   const [idioma, setIdioma] = React.useState("en")
 
-  const color = useColorModeValue('white', 'gray.800')
+  const color = useColorModeValue('white', 'gray.700')
   const { colorMode, toggleColorMode } = useColorMode()
   const { isOpen, onOpen, onClose } = useDisclosure()
   const btnRef = React.useRef()
@@ -77,10 +78,11 @@ function App() {
           </Button>
         </Flex>
       </nav>
-      <Flex flexDirection="column">
-        <QuemSou />
-        <Habilidades idioma={"en"} />
-        <Experiencias idioma={"en"} />
+      <Flex flexDirection="column" paddingTop="65px">
+        <QuemSou idioma={idioma}/>
+        <Habilidades idioma={idioma} />
+        <Experiencias idioma={idioma} />
+        <Werdegang idioma={idioma}/>
       </Flex>
       <Drawer
         isOpen={isOpen}

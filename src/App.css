@@ -14,10 +14,51 @@
 }
 
 .progressBar{
-  animation: myAnim 3s;
+  --chakra-transition-property-common: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform,width;
+}
+.progressBar div{
+  transition-duration: 1.5s;
 }
 
 @keyframes myAnim {
   0% {width:0%}
   100% {width:96.5%}
 }
+
+ /* CSS added to change Swiper */
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding-inline:40px
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: #D53F8C;
+}
+.swiper-pagination-bullet-active {
+  background: #D53F8C;
+}
+.swiper-wrapper {
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+.navbar{position: fixed !important; width: 100%;z-index: 99;background-color: var(--chakra-colors-white);}
+.chakra-ui-dark .navbar{background-color: var(--chakra-colors-gray-700);}
+@media only screen and (min-width:992px) {
+.css-r6z5ec{position: fixed !important;transform: translate(0px, 65px) !important;}}
+
