@@ -1,206 +1,221 @@
 {
     "pt": {
-        "tabTitles":[
+        "sectionTitle": {
+            "title": "What made me who I am"
+        },
+        "tabTitles": [
             "Work Experience",
             "Education"
         ],
         "CardsWorks": [
             {
-                "year":"2016 - 2021",
-                "title":"Title 1",
-                "text":"Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1",
-                "button":"button 1"
-
+                "year": "2016 - 2021",
+                "title": "Web Developer",
+                "subtitle": "",
+                "text": "Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1",
+                "button": "button 1"
             },
             {
-                "year":"2022 - 2023",
-                "title":"Title 2",
-                "text":"Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2",
-                "button":"button 2"
-
+                "year": "2022 - 2023",
+                "title": "Title 2",
+                "subtitle": "",
+                "text": "Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2",
+                "button": "button 2"
             },
             {
-                "year":"2024",
-                "title":"Title 3",
-                "text":"Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3",
-                "button":"button 3"
-
-            }
-        ],"CardsEducation": [
-            {
-                "year":"2016 - 2021",
-                "title":"Title 1",
-                "text":"Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1",
-                "button":"button 1"
-
-            },
-            {
-                "year":"2022 - 2023",
-                "title":"Title 2",
-                "text":"Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2",
-                "button":"button 2"
-
-            },
-            {
-                "year":"2024",
-                "title":"Title 3",
-                "text":"Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3",
-                "button":"button 3"
-
-            }
-        ]
-    },
-    "en": {
-        "tabTitles":[
-            "Work Experience",
-            "Education"
-        ],
-        "CardsWorks": [
-            {
-                "year":"2016 - 2021",
-                "title":"Title 1",
-                "text":"Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1",
-                "button":"button 1"
-
-            },
-            {
-                "year":"2022 - 2023",
-                "title":"Title 2",
-                "text":"Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2",
-                "button":"button 2"
-
-            },
-            {
-                "year":"2024",
-                "title":"Title 3",
-                "text":"Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3",
-                "button":"button 3"
-
-            }
-        ],"CardsEducation": [
-            {
-                "year":"2016 - 2021",
-                "title":"Title 1",
-                "text":"Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1",
-                "button":"button 1"
-
-            },
-            {
-                "year":"2022 - 2023",
-                "title":"Title 2",
-                "text":"Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2",
-                "button":"button 2"
-
-            },
-            {
-                "year":"2024",
-                "title":"Title 3",
-                "text":"Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3",
-                "button":"button 3"
-
-            }
-        ]
-    },
-    "it": {
-        "tabTitles":[
-            "Work Experience",
-            "Education"
-        ],
-        "CardsWorks": [
-            {
-                "year":"2016 - 2021",
-                "title":"Title 1",
-                "text":"Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1",
-                "button":"button 1"
-
-            },
-            {
-                "year":"2022 - 2023",
-                "title":"Title 2",
-                "text":"Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2",
-                "button":"button 2"
-
-            },
-            {
-                "year":"2024",
-                "title":"Title 3",
-                "text":"Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3",
-                "button":"button 3"
-
+                "year": "2024",
+                "title": "Title 3",
+                "subtitle": "",
+                "text": "Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3",
+                "button": "button 3"
             }
         ],
         "CardsEducation": [
             {
-                "year":"2016 - 2021",
-                "title":"Title 1",
-                "text":"Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1",
-                "button":"button 1"
-
+                "year": "2016 - 2021",
+                "title": "Web Developer",
+                "subtitle": "",
+                "text": "Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1",
+                "button": "button 1"
             },
             {
-                "year":"2022 - 2023",
-                "title":"Title 2",
-                "text":"Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2",
-                "button":"button 2"
-
+                "year": "2022 - 2023",
+                "title": "Title 2",
+                "subtitle": "",
+                "text": "Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2",
+                "button": "button 2"
             },
             {
-                "year":"2024",
-                "title":"Title 3",
-                "text":"Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3",
-                "button":"button 3"
-
+                "year": "2024",
+                "title": "Title 3",
+                "subtitle": "",
+                "text": "Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3",
+                "button": "button 3"
             }
         ]
     },
-    "de": {
-        "tabTitles":[
+    "en": {
+        "sectionTitle": {
+            "title": "What made me who I am"
+        },
+        "tabTitles": [
             "Work Experience",
             "Education"
         ],
         "CardsWorks": [
             {
-                "year":"2016 - 2021",
-                "title":"Title 1",
-                "text":"Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1",
-                "button":"button 1"
-
+                "year": "2023 – Present",
+                "title": "Web Developer",
+                "subtitle": "Hashtag Web Agency – Naples (Italy)",
+                "text": "As part of the Hashtag Web Agency, my tasks consists of: develop e-commerce websites together with web designers, applying my knowledge on coding languages (Javascript & PHP) together with e-commerce platforms such as Woocommerce (Wordpress), Prestashop and Shopify (Liquid); configure and manage advertising campaigns on Google Ads plataforms; Performance reports based on website metrics (backend and Google Analytics).",
+                "button": "button 1"
             },
             {
-                "year":"2022 - 2023",
-                "title":"Title 2",
-                "text":"Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2",
-                "button":"button 2"
-
+                "year": "2022 - 2023",
+                "title": "Front-end Web Developer",
+                "subtitle": "Freelance based on Naples (Italy)",
+                "text": "After obtaining my bachelor’s in Chemical Engineering, I opted to follow my passion for coding and development by starting an indipendent learning Journey. While I further advanced my logical thinking and coding skills, I also took the chance to move to italy and start a career creating websites, applying my reccently acquired knowledge on Front-End Web Development.",
+                "button": "button 2"
             },
             {
-                "year":"2024",
-                "title":"Title 3",
-                "text":"Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3",
-                "button":"button 3"
-
+                "year": "2021 - 2022",
+                "title": "Logistics Management Internship",
+                "subtitle": "Procter & Gamble P&G – Itatiaia (Brazil)",
+                "text": "Working on one of the biggest Distribution Center of Procter & Gamble on Brasil was an enriching experience. During my time at the company, I assumed the position of intern on the management internship of P&G, which allowed me to develop and lead projects regarding inventory management and supply chain optimization. Some of my tasks were: monitor and optmize non productive inventory (NPI), supervise meetings between different parties that took part on the supply chain of the company, on the South american level and guide coding projects for Enterprise Resource Planning softwares (SAP). The most used tools for this tasks were Excel/Visual Basic, PowerBI, KNIME and SAP.",
+                "button": "button 3"
             }
-        ],"CardsEducation": [
+        ],
+        "CardsEducation": [
             {
-                "year":"2016 - 2021",
-                "title":"Title 1",
-                "text":"Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1 Lorem ipsum 1",
-                "button":"button 1"
-
+                "year": "Sep/2023 – Jul/2024",
+                "title": "Apple Developer Academy",
+                "subtitle": "Naples (Italy)",
+                "text": "Thanks to the Apple Developer Academy I got to know and work with diverse individuals, enhancing my communication and teamwork skills. This environment also allowed me to dive deep into the Apple ecosystem, learning SwiftUI, UIKit and many other frameworks provided by one of the biggest tech companies, while putting it all to use through creative and design thinking.",
+                "button": "button 1"
             },
             {
-                "year":"2022 - 2023",
-                "title":"Title 2",
-                "text":"Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2 Lorem ipsum 2",
-                "button":"button 2"
-
+                "year": "2016 – Sep/2022",
+                "title": "Chemical Engineering Bachelor’s Degree",
+                "subtitle": "Universidade Federal de São Carlos (Brazil)",
+                "text": "My graduation played a pivotal role on my professional and personal growth. During my bachelor’s degree I was given the opportunity to improve the logital thinking and problem solving skills eeded for the engineering practices, which in turn also allowed me to develop an analytical view for processes, always focusing on optimization. Besides this, Chemical Engineering also taught me professional ethics, resilience and the value of commitment.",
+                "button": "button 2"
             },
             {
-                "year":"2024",
-                "title":"Title 3",
-                "text":"Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3 Lorem ipsum 3",
-                "button":"button 3"
-
+                "year": "2012 - 2015",
+                "title": "Double Diploma High School Program",
+                "subtitle": "Texas Tech Independent School District (Brazil/USA)",
+                "text": "It was during my double High School diploma that I discovered my love for learning languages and other cultures. The classes, based on the american high school curriculum and taught by native speakers, provided not only a new perspective on another culture but also promoted a significant improvement in my English speaking ability.",
+                "button": "button 3"
+            }
+        ]
+    },
+    "it": {
+        "sectionTitle": {
+            "title": "What made me who I am"
+        },
+        "tabTitles": [
+            "Esperienze lavorative",
+            "Istruzione"
+        ],
+        "CardsWorks": [
+            {
+                "year": "2023 – Present",
+                "title": "Web Developer",
+                "subtitle": "Hashtag Web Agency – Napoli (Italia)",
+                "text": "Come parte della Hashtag Web Agency, i miei compiti consistono nello sviluppo di siti web di e-commerce insieme ai web designer, applicando le mie conoscenze di linguaggi di programmazione (Javascript e PHP) insieme a piattaforme di e-commerce come Woocommerce (Wordpress), Prestashop e Shopify (Liquid); configurare e gestire campagne pubblicitarie sulle piattaforme Google Ads; redigere report sulle prestazioni basati su metriche dei siti web (backend e Google Analytics).",
+                "button": "button 1"
+            },
+            {
+                "year": "2022 - 2023",
+                "title": "Front-end Web Developer",
+                "subtitle": "Freelance a Napoli (Italia)",
+                "text": "Dopo aver conseguito la laurea in Ingegneria Chimica, ho deciso di seguire la mia passione per la programmazione e lo sviluppo iniziando un percorso di apprendimento indipendente. Mentre approfondivo il mio pensiero logico e le mie competenze di coding, ho anche colto l'opportunità di trasferirmi in Italia e avviare una carriera nella creazione di siti web, applicando le conoscenze recentemente acquisite nello sviluppo web front-end.",
+                "button": "button 2"
+            },
+            {
+                "year": "2021 - 2022",
+                "title": "Logistics Management Internship",
+                "subtitle": "Procter & Gamble P&G – Itatiaia (Brasile)",
+                "text": "Lavorare in uno dei più grandi centri di distribuzione della Procter & Gamble in Brasile è stata un'esperienza arricchente. Durante il mio periodo presso l'azienda, ho ricoperto la posizione di stagista nel programma di gestione della P&G, che mi ha permesso di sviluppare e guidare progetti relativi alla gestione dell'inventario e all'ottimizzazione della catena di approvvigionamento. Alcuni dei miei compiti includevano: monitorare e ottimizzare l'inventario non produttivo (NPI), supervisionare le riunioni tra le diverse parti coinvolte nella supply chain dell'azienda a livello sudamericano e guidare progetti di codifica per software di pianificazione delle risorse aziendali (ERP) come SAP. Gli strumenti più utilizzati per questi compiti erano Excel/Visual Basic, PowerBI, KNIME e SAP.",
+                "button": "button 3"
+            }
+        ],
+        "CardsEducation": [
+            {
+                "year": "Set/2023 – Lug/2024",
+                "title": "Apple Developer Academy",
+                "subtitle": "Napoli (Italia)",
+                "text": "Grazie all'Apple Developer Academy ho avuto l'opportunità di conoscere e lavorare con persone diverse, migliorando le mie capacità di comunicazione e teamwork. Questo ambiente mi ha anche permesso di immergermi a fondo nell'ecosistema Apple, imparando SwiftUI, UIKit e molti altri framework forniti da una delle più grandi aziende tecnologiche, mettendo tutto in pratica attraverso il pensiero creativo e il design thinking.",
+                "button": "button 1"
+            },
+            {
+                "year": "2016 – Set/2022",
+                "title": "Chemical Engineering Bachelor’s Degree",
+                "subtitle": "Universidade Federal de São Carlos (Brasile)",
+                "text": "La mia laurea ha svolto un ruolo fondamentale nella mia crescita professionale e personale. Durante il mio percorso di laurea, ho avuto l'opportunità di migliorare il pensiero logico e le capacità di risoluzione dei problemi necessari per le pratiche ingegneristiche, il che mi ha anche permesso di sviluppare una visione analitica dei processi, sempre focalizzandomi sull'ottimizzazione. Oltre a questo, l'Ingegneria Chimica mi ha insegnato l'etica professionale, la resilienza e il valore dell'impegno.",
+                "button": "button 2"
+            },
+            {
+                "year": "2012 - 2015",
+                "title": "Double Diploma High School Program",
+                "subtitle": "Texas Tech Independent School District (Brasile/USA)",
+                "text": "È stato durante il mio doppio diploma di scuola superiore che ho scoperto il mio amore per l'apprendimento delle lingue e delle altre culture. Le lezioni, basate sul curriculum delle scuole superiori americane e insegnate da madrelingua, non solo mi hanno fornito una nuova prospettiva su un'altra cultura, ma hanno anche promosso un miglioramento significativo delle mie capacità di parlare inglese.",
+                "button": "button 3"
+            }
+        ]
+    },
+    "de": {
+        "sectionTitle": {
+            "title": "Werdegang"
+        },
+        "tabTitles": [
+            "Berufserfahrung",
+            "Ausbildung"
+        ],
+        "CardsWorks": [
+            {
+                "year": "2023 – Present",
+                "title": "Web Developer",
+                "subtitle": "Hashtag Web Agency – Neapel (Italien)",
+                "text": "Als Teil der Hashtag Web Agency bestehen meine Aufgaben darin: Entwicklung von E- Commerce-Websites zusammen mit Webdesignern, Anwendung meiner Kenntnisse in Programmiersprachen (Javascript & PHP) zusammen mit E-Commerce-Plattformen wie Woocommerce (Wordpress), Prestashop und Shopify (Liquid); Konfiguration und Verwaltung von Werbekampagnen auf Google Ads-Plattformen; Leistungsberichte basierend auf Website-Metriken (Backend und Google Analytics).",
+                "button": "button 1"
+            },
+            {
+                "year": "2022 – 2023",
+                "title": "Front-end Web Developer",
+                "subtitle": "Freelance - Neapel (Italien)",
+                "text": "Nach dem Abschluss meines Bachelorstudiums in Chemieingenieurwesen entschied ich mich, meiner Leidenschaft für Programmierung und Entwicklung nachzugehen, indem ich eine unabhängige Lernreise begann. Während ich mein logisches Denken und meine Programmierfähigkeiten weiter verbesserte, nutzte ich auch die Gelegenheit, nach Italien zu ziehen und eine Karriere im Erstellen von Websites zu beginnen, wobei ich mein kürzlich erworbenes Wissen im Front-End-Webentwicklung anwendete.",
+                "button": "button 2"
+            },
+            {
+                "year": "2021 – 2022",
+                "title": "Logistics Management Internship",
+                "subtitle": "Procter & Gamble P&G – Itatiaia (Brasilien)",
+                "text": "Die Arbeit in einem der größten Distributionszentren von Procter & Gamble in Brasilien war eine bereichernde Erfahrung. Während meiner Zeit im Unternehmen habe ich die Position eines Praktikanten im Management-Praktikumsprogramm von P&G übernommen, was mir ermöglichte, Projekte zur Bestandsverwaltung und Optimierung der Lieferkette zu entwickeln und zu leiten. Zu meinen Aufgaben gehörten: Überwachung und Optimierung des unproduktiven Bestands (NPI), Überwachung von Besprechungen zwischen verschiedenen Parteien, die an der Lieferkette des Unternehmens auf südamerikanischer Ebene beteiligt waren, und Anleitung von Codierungsprojekten für ERP-Software (SAP). Die am häufigsten verwendeten Werkzeuge für diese Aufgaben waren Excel/Visual Basic, PowerBI, KNIME und SAP.",
+                "button": "button 3"
+            }
+        ],
+        "CardsEducation": [
+            {
+                "year": "Sep/2023 – Jul/2024",
+                "title": "Apple Developer Academy",
+                "subtitle": "Neapel (Italien)",
+                "text": "Dank der Apple Developer Academy konnte ich verschiedene Menschen kennenlernen und mit ihnen arbeiten, wodurch ich meine Kommunikations- und Teamfähigkeiten verbesserte. Diese Umgebung ermöglichte es mir auch, tief in das Apple-Ökosystem einzutauchen, SwiftUI, UIKit und viele andere Frameworks von einem der größten Technologieunternehmen zu lernen und all dies durch kreatives und Design Thinking anzuwenden.",
+                "button": "button 1"
+            },
+            {
+                "year": "2016 – Sep/2022",
+                "title": "Chemical Engineering Bachelor’s Degree",
+                "subtitle": "Universidade Federal de São Carlos (Brasilien)",
+                "text": "Mein Abschluss spielte eine entscheidende Rolle für mein berufliches und persönliches Wachstum. Während meines Bachelorstudiums hatte ich die Möglichkeit, mein logisches Denken und meine Problemlösungsfähigkeiten zu verbessern, die für die ingenieurwissenschaftliche Praxis erforderlich sind, was mir wiederum ermöglichte, eine analytische Sichtweise auf Prozesse zu entwickeln, wobei ich mich immer auf Optimierung konzentrierte. Darüber hinaus lehrte mich das Chemieingenieurwesen berufliche Ethik, Belastbarkeit und den Wert von Engagement.",
+                "button": "button 2"
+            },
+            {
+                "year": "2012 – 2015",
+                "title": "Double Diploma High School Program",
+                "subtitle": "Texas Tech Independent School District (Brasilien/USA)",
+                "text": "Während meines Doppelabschlusses an der High School entdeckte ich meine Liebe zum Erlernen von Sprachen und anderen Kulturen. Die auf dem amerikanischen High School- Lehrplan basierenden und von Muttersprachlern unterrichteten Klassen boten nicht nur eine neue Perspektive auf eine andere Kultur, sondern förderten auch eine erhebliche Verbesserung meiner Englischkenntnisse",
+                "button": "button 3"
             }
         ]
     }

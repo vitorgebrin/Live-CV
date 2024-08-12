@@ -5,7 +5,7 @@ import Experiencias from './pages/Experiencias'
 import Werdegang from './pages/Werdegang'
 import lg_ico from './images/language_icon.png'
 import myIcon from './images/letter-v.png'
-import textos from "./json/Textos.json"
+import menuText from "./json/Menu.json"
 import './App.css'
 import './index.css'
 
@@ -40,10 +40,10 @@ function App() {
       <nav className="navbar">
         <Flex maxWidth="100vw" direction='row' className='desktop desktop_menu'>
           <img src={myIcon} className="logo" alt="logo" />
-          <Button px='20px' bg={color}>About Me</Button>
-          <Button px='20px' bg={color}>Skills</Button>
-          <Button px='20px' bg={color}>Portifolio</Button>
-          <Button px='20px' bg={color}>Education/Work</Button>
+          <Button px='20px' bg={color}>{menuText[idioma]["menu"]["aboutMe"]}</Button>
+          <Button px='20px' bg={color}>{menuText[idioma]["menu"]["skills"]}</Button>
+          <Button px='20px' bg={color}>{menuText[idioma]["menu"]["portfolio"]}</Button>
+          <Button px='20px' bg={color}>{menuText[idioma]["menu"]["werdegang"]}</Button>
         </Flex>
         <img src={myIcon} className="logo mobile" alt="logo" />
         <Flex maxWidth="100vw" direction='row' textAlign='end' >
@@ -97,10 +97,10 @@ function App() {
 
           <DrawerBody>
             <Flex maxWidth="100vw" direction='column'>
-              <Button px='20px' bg={color}>About Me</Button>
-              <Button px='20px' bg={color}>Skills</Button>
-              <Button px='20px' bg={color}>Portifolio</Button>
-              <Button px='20px' bg={color}>Education/Work</Button>
+              <Button px='20px' bg={color}>{menuText[idioma]["menu"]["aboutMe"]}</Button>
+              <Button px='20px' bg={color}>{menuText[idioma]["menu"]["skills"]}</Button>
+              <Button px='20px' bg={color}>{menuText[idioma]["menu"]["portfolio"]}</Button>
+              <Button px='20px' bg={color}>{menuText[idioma]["menu"]["werdegang"]}</Button>
             </Flex>
           </DrawerBody>
 

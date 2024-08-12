@@ -24,13 +24,18 @@ const { activeStep, setActiveStep } = useSteps({
 })
 var idioma =props.idioma
 return (
-<Container maxWidth={["100vw", "50vw"]} justifyContent="center">
+    <Container maxWidth="100vw">
+<Container maxWidth={["100vw", "70vw"]} justifyContent="center">
+<Heading lineHeight='tall' fontSize={["2xl","4xl"]} textAlign="center">
+           {werdegangTexts[idioma]["sectionTitle"]["title"]}
+        </Heading>
+        <Spacer height="60px" />
     <Tabs isFitted variant='enclosed' colorScheme='pink'>
-        <TabList mb='1em'>
+        <TabList>
             <Tab onClick={() => setActiveStep(1)}>{werdegangTexts[idioma]["tabTitles"][0]}</Tab>
             <Tab onClick={() => setActiveStep(1)}>{werdegangTexts[idioma]["tabTitles"][1]}</Tab>
         </TabList>
-        <TabPanels>
+        <TabPanels p="100px 160px 0" mb= "200px" border={["1px solid var(--chakra-colors-whiteAlpha-300);","1px solid var(--chakra-colors-gray-200);"]} borderTop="0px">
             <TabPanel>
                 <Spacer height="120px" />
                 <Flex orientation="row">
@@ -57,6 +62,7 @@ return (
                                         <Stack>
                                             <CardBody>
                                                 <Heading size='md'>{step["title"]}</Heading>
+                                                <Heading size='sm'>{step["subtitle"]}</Heading>
 
                                                 <Text py='2'>
                                                 {step["text"]}
@@ -64,9 +70,9 @@ return (
                                             </CardBody>
 
                                             <CardFooter>
-                                                <Button variant='solid' colorScheme='pink' onClick={() => setActiveStep(index+1)}>
+                                               {/*  <Button variant='solid' colorScheme='pink' onClick={() => setActiveStep(index+1)}>
                                                 {step["button"]}
-                                                </Button>
+                                                </Button> */}
                                             </CardFooter>
                                         </Stack>
                                     </Card>
@@ -88,7 +94,7 @@ return (
                                     <StepIndicator>
                                         <StepStatus complete={<StepIcon />} />
                                     </StepIndicator>
-                                    <Box flexShrink='0' minWidth={["auto", "160px"]} textAlign="center">
+                                    <Box flexShrink='0' minWidth={["auto", "200px"]} textAlign="center">
                                         <StepTitle>{step["year"]}</StepTitle>
                                     </Box>
 
@@ -104,6 +110,7 @@ return (
                                         <Stack>
                                             <CardBody>
                                                 <Heading size='md'>{step["title"]}</Heading>
+                                                <Heading size='sm'>{step["subtitle"]}</Heading>
 
                                                 <Text py='2'>
                                                 {step["text"]}
@@ -111,9 +118,9 @@ return (
                                             </CardBody>
 
                                             <CardFooter>
-                                                <Button variant='solid' colorScheme='pink' onClick={() => setActiveStep(1)}>
+                                              {/*   <Button variant='solid' colorScheme='pink' onClick={() => setActiveStep(1)}>
                                                 {step["button"]}
-                                                </Button>
+                                                </Button> */}
                                             </CardFooter>
                                         </Stack>
                                     </Card>
@@ -126,6 +133,7 @@ return (
             </TabPanel>
         </TabPanels>
     </Tabs>
+</Container>
 </Container>
 )
 }

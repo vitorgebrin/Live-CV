@@ -1,0 +1,34 @@
+{
+    "pt": {
+        "menu":{
+            "aboutMe":"Sobre mim",
+            "skills":"Habilidades",
+            "portfolio":"Portfolio",
+            "werdegang":"Educação / Trabalho"
+        }
+    },
+    "en": {
+        "menu":{
+            "aboutMe":"About Me",
+            "skills":"Skills",
+            "portfolio":"Portfolio",
+            "werdegang":"Education / Work"
+        }
+    },
+    "it": {
+        "menu":{
+            "aboutMe":"Chi sono",
+            "skills":"Competenze",
+            "portfolio":"Portfolio",
+            "werdegang":"Esperienze / Istruzione"
+        }
+    },
+    "de": {
+        "menu":{
+            "aboutMe":"Wer bin ich",
+            "skills":"Kentnisse",
+            "portfolio":"Portfolio",
+            "werdegang":"Werdegang"
+        }
+    }
+}
