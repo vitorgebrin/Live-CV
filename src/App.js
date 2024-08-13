@@ -35,15 +35,28 @@ function App() {
   const { colorMode, toggleColorMode } = useColorMode()
   const { isOpen, onOpen, onClose } = useDisclosure()
   const btnRef = React.useRef()
+  const myref = React.useRef()
   return (
     <Container maxWidth="100vw" px='0px'>
       <nav className="navbar">
         <Flex maxWidth="100vw" direction='row' className='desktop desktop_menu'>
           <img src={myIcon} className="logo" alt="logo" />
-          <Button px='20px' bg={color}>{menuText[idioma]["menu"]["aboutMe"]}</Button>
-          <Button px='20px' bg={color}>{menuText[idioma]["menu"]["skills"]}</Button>
-          <Button px='20px' bg={color}>{menuText[idioma]["menu"]["portfolio"]}</Button>
-          <Button px='20px' bg={color}>{menuText[idioma]["menu"]["werdegang"]}</Button>
+          <Button px='20px' bg={color} onClick={() => {
+            const element = document.getElementById("aboutMe")
+            element.scrollIntoView({behavior:"smooth"})
+          }}>{menuText[idioma]["menu"]["aboutMe"]}</Button>
+          <Button px='20px' bg={color} onClick={() => {
+            const element = document.getElementById("skills")
+            element.scrollIntoView({behavior:"smooth"})
+          }}>{menuText[idioma]["menu"]["skills"]}</Button>
+          <Button px='20px' bg={color} onClick={() => {
+            const element = document.getElementById("portfolio")
+            element.scrollIntoView({behavior:"smooth"})
+          }}>{menuText[idioma]["menu"]["portfolio"]}</Button>
+          <Button px='20px' bg={color} onClick={() => {
+            const element = document.getElementById("werdegang")
+            element.scrollIntoView({behavior:"smooth"})
+          }}>{menuText[idioma]["menu"]["werdegang"]}</Button>
         </Flex>
         <img src={myIcon} className="logo mobile" alt="logo" />
         <Flex maxWidth="100vw" direction='row' textAlign='end' >
@@ -97,10 +110,26 @@ function App() {
 
           <DrawerBody>
             <Flex maxWidth="100vw" direction='column'>
-              <Button px='20px' bg={color}>{menuText[idioma]["menu"]["aboutMe"]}</Button>
-              <Button px='20px' bg={color}>{menuText[idioma]["menu"]["skills"]}</Button>
-              <Button px='20px' bg={color}>{menuText[idioma]["menu"]["portfolio"]}</Button>
-              <Button px='20px' bg={color}>{menuText[idioma]["menu"]["werdegang"]}</Button>
+            <Button px='20px' bg={color} onClick={() => {
+            const element = document.getElementById("aboutMe")
+            element.scrollIntoView({behavior:"smooth"})
+            onClose()
+          }}>{menuText[idioma]["menu"]["aboutMe"]}</Button>
+          <Button px='20px' bg={color} onClick={() => {
+            const element = document.getElementById("skills")
+            element.scrollIntoView({behavior:"smooth"})
+            onClose()
+          }}>{menuText[idioma]["menu"]["skills"]}</Button>
+          <Button px='20px' bg={color} onClick={() => {
+            const element = document.getElementById("portfolio")
+            element.scrollIntoView({behavior:"smooth"})
+            onClose()
+          }}>{menuText[idioma]["menu"]["portfolio"]}</Button>
+          <Button px='20px' bg={color} onClick={() => {
+            const element = document.getElementById("werdegang")
+            element.scrollIntoView({behavior:"smooth"})
+            onClose()
+          }}>{menuText[idioma]["menu"]["werdegang"]}</Button>
             </Flex>
           </DrawerBody>
 

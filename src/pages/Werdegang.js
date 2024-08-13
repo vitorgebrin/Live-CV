@@ -24,7 +24,7 @@ const { activeStep, setActiveStep } = useSteps({
 })
 var idioma =props.idioma
 return (
-    <Container maxWidth="100vw">
+    <Container maxWidth="100vw" id='werdegang'>
 <Container maxWidth={["100vw", "70vw"]} justifyContent="center">
 <Heading lineHeight='tall' fontSize={["2xl","4xl"]} textAlign="center">
            {werdegangTexts[idioma]["sectionTitle"]["title"]}
@@ -32,10 +32,16 @@ return (
         <Spacer height="60px" />
     <Tabs isFitted variant='enclosed' colorScheme='pink'>
         <TabList>
-            <Tab onClick={() => setActiveStep(1)}>{werdegangTexts[idioma]["tabTitles"][0]}</Tab>
-            <Tab onClick={() => setActiveStep(1)}>{werdegangTexts[idioma]["tabTitles"][1]}</Tab>
+            <Tab onClick={() => setActiveStep(1)}>
+                <Heading fontSize={["sm","lg"]}>
+                    {werdegangTexts[idioma]["tabTitles"][0]}
+                </Heading>
+                </Tab>
+            <Tab onClick={() => setActiveStep(1)}><Heading fontSize={["sm","lg"]}>
+                    {werdegangTexts[idioma]["tabTitles"][1]}
+                </Heading></Tab>
         </TabList>
-        <TabPanels p="100px 160px 0" mb= "200px" border={["1px solid var(--chakra-colors-whiteAlpha-300);","1px solid var(--chakra-colors-gray-200);"]} borderTop="0px">
+        <TabPanels p={["0","100px 160px 0"]} mb= "200px" border={["1px solid var(--chakra-colors-whiteAlpha-300);","1px solid var(--chakra-colors-gray-200);"]} borderTop="0px">
             <TabPanel>
                 <Spacer height="120px" />
                 <Flex orientation="row">
@@ -64,7 +70,7 @@ return (
                                                 <Heading size='md'>{step["title"]}</Heading>
                                                 <Heading size='sm'>{step["subtitle"]}</Heading>
 
-                                                <Text py='2'>
+                                                <Text py='2' paddingLeft="10px">
                                                 {step["text"]}
                                                 </Text>
                                             </CardBody>

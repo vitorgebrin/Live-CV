@@ -2,21 +2,49 @@
     "pt": {
         "skills":{
             "title":"My Skills"
+        },
+        "languages":{
+            "title":"Languages",
+            "italian":"Italiano",
+            "german":"Alemão",
+            "english":"Inglês",
+            "portuguese":"Português"
         }
     },
     "en": {
         "skills":{
             "title":"My Skills"
+        },
+        "languages":{
+            "title":"Languages",
+            "italian":"Italian",
+            "german":"German",
+            "english":"English",
+            "portuguese":"Portuguese"
         }
     },
     "it": {
         "skills":{
             "title":"My Skills"
+        },
+        "languages":{
+            "title":"Languages",
+            "italian":"Italiano",
+            "german":"Tedesco",
+            "english":"Inglese",
+            "portuguese":"Portughese"
         }
     },
     "de": {
         "skills":{
             "title":"My Skills"
+        },
+        "languages":{
+            "title":"Languages",
+            "italian":"Italiaenisch",
+            "german":"Deutsch",
+            "english":"Englisch",
+            "portuguese":"Portugiesisch"
         }
     }
 }

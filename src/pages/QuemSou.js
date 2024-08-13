@@ -6,7 +6,7 @@ export default function QuemSou(props) {
   const colorSec = useColorModeValue('gray.100', 'gray.700')
   var idioma =props.idioma
   return (
-    <Container maxWidth="100vw" justifyContent="center">
+    <Container maxWidth="100vw" justifyContent="center" id='aboutMe'>
 
       <Box maxWidth={["100vw","50vw"]} textAlign="center" m="auto">
         <Heading lineHeight='tall' fontSize={["2xl","4xl"]}>
