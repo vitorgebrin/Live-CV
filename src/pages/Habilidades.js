@@ -1,9 +1,8 @@
 //import { createApi } from 'unsplash-js';
 import React from 'react'
 import codingSticker from "../images/coding-sticker.png"
-import textos from "../json/Textos.json"
 import habilidadesText from "../json/Habilidades.json"
-import { Progress, Box, Container, Flex, Button, Heading, Text, useColorModeValue, Spacer,Divider } from '@chakra-ui/react'
+import { Progress, Box, Container, Flex, Heading, Text, useColorModeValue, Spacer,Divider } from '@chakra-ui/react'
 
 export default function Habilidades(props) {
   var idioma = props.idioma

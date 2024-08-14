@@ -9,7 +9,7 @@
                 "subtitle": "iPadOS/iOS App",
                 "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/f0/ac/d1f0ac4d-202f-111e-cf24-304b445a9c15/AppIcon-0-0-1x_U007epad-0-sRGB-85-220.png/230x0w.webp",
                 "text": "My first Apple App to be published on the App Store, Eyedia is a group project developed by me and 5 other friends during my studies on the Apple Developer Academy and its goal is to help students of many different fields to optimize their studies with the help of quiz techniques. Eyedia was developed in a short timeframe of 1 month, but we managed to publish its first version on the App Store even though we had a small team. I am very proud of this App and my team and I still look forward to uploading it on the near future.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://apps.apple.com/it/app/eyedia/id6502829163"
             },
             {
@@ -17,7 +17,7 @@
                 "subtitle": "Website",
                 "image": "https://www.rossellasorbinonutrizionista.it/wp-content/uploads/2023/05/Logo-definitivo-1-1-e1684938007746.png",
                 "text": "Website done and designed by my own for a nutricionist based on Naples. I designed, prototyped and developed this website with the goal to create a product that could represent the best traits of the doctor in a modern and cozy style. This Wordpress website uses woocommerce and booknetic to create a booking system integrated with the doctor's calendar.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://www.rossellasorbinonutrizionista.it/"
             },
             {
@@ -25,7 +25,7 @@
                 "subtitle": "Website",
                 "image": "https://metisseofficial.it/wp-content/uploads/2024/03/cropped-metisse_sito_black.png",
                 "text": "This is a Wordpress Ecommerce website done for a boots brand that I develop and structured, in which the concept was to better expose the image and the design of the product while also attracting costumers to buy directly from the brand.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://metisseofficial.it/"
             },
             {
@@ -33,28 +33,28 @@
                 "subtitle": "Website",
                 "image": "https://www.981jewels.com/img/981-jewels-logo-1554308063.jpg",
                 "text": "This is a Prestashop Ecommerce website done for a jewelry brand. My goal in this project was, together with a designer, to create a website that would evoke a feeling of luxury that could match the product of the brand.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://www.981jewels.com/"
             },{
                 "title": "Ortensia Tropeano",
                 "subtitle": "Website",
                 "image": "https://ortensiatropeano.com/wp-content/uploads/2021/09/logo-1.png",
                 "text": "This is a Wordpress Ecommerce website done for a skincare brand. In this project I had to apply different programming languages such as PHP and Javascript to better fit the idead defined by the designer.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://ortensiatropeano.com/"
             },{
                 "title": "Pentasis",
                 "subtitle": "Website",
                 "image": "https://pentasisautomacao.com.br/wp-content/uploads/2022/09/cropped-logopentasis.png",
                 "text": "This is a Wordpress website I have done for a security and automation business, in which my task was to create a concept and develop a website that would bring the idea of technology to the business and also provide a simple way to organize the documents of the products the sell.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://pentasisautomacao.com.br/"
             },{
                 "title": "Niklo Boutique",
                 "subtitle": "Website",
                 "image": "https://niklo.eu/cdn/shop/files/logo-1642088068.png?v=1716898262&width=300",
                 "text": "This is a Shopify Ecommerce website done for a famous fashion business based on Naples.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://niklo.eu/"
             }
         ]
@@ -69,7 +69,7 @@
                 "subtitle": "iPadOS/iOS App",
                 "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/f0/ac/d1f0ac4d-202f-111e-cf24-304b445a9c15/AppIcon-0-0-1x_U007epad-0-sRGB-85-220.png/230x0w.webp",
                 "text": "My first Apple App to be published on the App Store, Eyedia is a group project developed by me and 5 other friends during my studies on the Apple Developer Academy and its goal is to help students of many different fields to optimize their studies with the help of quiz techniques. Eyedia was developed in a short timeframe of 1 month, but we managed to publish its first version on the App Store even though we had a small team. I am very proud of this App and my team and I still look forward to uploading it on the near future.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://apps.apple.com/it/app/eyedia/id6502829163"
             },
             {
@@ -77,7 +77,7 @@
                 "subtitle": "Website",
                 "image": "https://www.rossellasorbinonutrizionista.it/wp-content/uploads/2023/05/Logo-definitivo-1-1-e1684938007746.png",
                 "text": "Website done and designed by my own for a nutricionist based on Naples. I designed, prototyped and developed this website with the goal to create a product that could represent the best traits of the doctor in a modern and cozy style. This Wordpress website uses woocommerce and booknetic to create a booking system integrated with the doctor's calendar.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": ""
             },
             {
@@ -85,7 +85,7 @@
                 "subtitle": "Website",
                 "image": "https://metisseofficial.it/wp-content/uploads/2024/03/cropped-metisse_sito_black.png",
                 "text": "This is a Wordpress Ecommerce website done for a boots brand that I develop and structured, in which the concept was to better expose the image and the design of the product while also attracting costumers to buy directly from the brand.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://metisseofficial.it/"
             },
             {
@@ -93,28 +93,28 @@
                 "subtitle": "Website",
                 "image": "https://www.981jewels.com/img/981-jewels-logo-1554308063.jpg",
                 "text": "This is a Prestashop Ecommerce website done for a jewelry brand. My goal in this project was, together with a designer, to create a website that would evoke a feeling of luxury that could match the product of the brand.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://www.981jewels.com/"
             },{
                 "title": "Ortensia Tropeano",
                 "subtitle": "Website",
                 "image": "https://ortensiatropeano.com/wp-content/uploads/2021/09/logo-1.png",
                 "text": "This is a Wordpress Ecommerce website done for a skincare brand. In this project I had to apply different programming languages such as PHP and Javascript to better fit the idead defined by the designer.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://ortensiatropeano.com/"
             },{
                 "title": "Pentasis",
                 "subtitle": "Website",
                 "image": "https://pentasisautomacao.com.br/wp-content/uploads/2022/09/cropped-logopentasis.png",
                 "text": "This is a Wordpress website I have done for a security and automation business, in which my task was to create a concept and develop a website that would bring the idea of technology to the business and also provide a simple way to organize the documents of the products the sell.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://pentasisautomacao.com.br/"
             },{
                 "title": "Niklo Boutique",
                 "subtitle": "Website",
                 "image": "https://niklo.eu/cdn/shop/files/logo-1642088068.png?v=1716898262&width=300",
                 "text": "This is a Shopify Ecommerce website done for a famous fashion business based on Naples.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://niklo.eu/"
             }
         ]
@@ -129,7 +129,7 @@
                 "subtitle": "iPadOS/iOS App",
                 "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/f0/ac/d1f0ac4d-202f-111e-cf24-304b445a9c15/AppIcon-0-0-1x_U007epad-0-sRGB-85-220.png/230x0w.webp",
                 "text": "My first Apple App to be published on the App Store, Eyedia is a group project developed by me and 5 other friends during my studies on the Apple Developer Academy and its goal is to help students of many different fields to optimize their studies with the help of quiz techniques. Eyedia was developed in a short timeframe of 1 month, but we managed to publish its first version on the App Store even though we had a small team. I am very proud of this App and my team and I still look forward to uploading it on the near future.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://apps.apple.com/it/app/eyedia/id6502829163"
             },
             {
@@ -137,7 +137,7 @@
                 "subtitle": "Website",
                 "image": "https://www.rossellasorbinonutrizionista.it/wp-content/uploads/2023/05/Logo-definitivo-1-1-e1684938007746.png",
                 "text": "Website done and designed by my own for a nutricionist based on Naples. I designed, prototyped and developed this website with the goal to create a product that could represent the best traits of the doctor in a modern and cozy style. This Wordpress website uses woocommerce and booknetic to create a booking system integrated with the doctor's calendar.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": ""
             },
             {
@@ -145,7 +145,7 @@
                 "subtitle": "Website",
                 "image": "https://metisseofficial.it/wp-content/uploads/2024/03/cropped-metisse_sito_black.png",
                 "text": "This is a Wordpress Ecommerce website done for a boots brand that I develop and structured, in which the concept was to better expose the image and the design of the product while also attracting costumers to buy directly from the brand.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://metisseofficial.it/"
             },
             {
@@ -153,28 +153,28 @@
                 "subtitle": "Website",
                 "image": "https://www.981jewels.com/img/981-jewels-logo-1554308063.jpg",
                 "text": "This is a Prestashop Ecommerce website done for a jewelry brand. My goal in this project was, together with a designer, to create a website that would evoke a feeling of luxury that could match the product of the brand.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://www.981jewels.com/"
             },{
                 "title": "Ortensia Tropeano",
                 "subtitle": "Website",
                 "image": "https://ortensiatropeano.com/wp-content/uploads/2021/09/logo-1.png",
                 "text": "This is a Wordpress Ecommerce website done for a skincare brand. In this project I had to apply different programming languages such as PHP and Javascript to better fit the idead defined by the designer.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://ortensiatropeano.com/"
             },{
                 "title": "Pentasis",
                 "subtitle": "Website",
                 "image": "https://pentasisautomacao.com.br/wp-content/uploads/2022/09/cropped-logopentasis.png",
                 "text": "This is a Wordpress website I have done for a security and automation business, in which my task was to create a concept and develop a website that would bring the idea of technology to the business and also provide a simple way to organize the documents of the products the sell.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://pentasisautomacao.com.br/"
             },{
                 "title": "Niklo Boutique",
                 "subtitle": "Website",
                 "image": "https://niklo.eu/cdn/shop/files/logo-1642088068.png?v=1716898262&width=300",
                 "text": "This is a Shopify Ecommerce website done for a famous fashion business based on Naples.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://niklo.eu/"
             }
         ]
@@ -189,7 +189,7 @@
                 "subtitle": "iPadOS/iOS App",
                 "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/f0/ac/d1f0ac4d-202f-111e-cf24-304b445a9c15/AppIcon-0-0-1x_U007epad-0-sRGB-85-220.png/230x0w.webp",
                 "text": "My first Apple App to be published on the App Store, Eyedia is a group project developed by me and 5 other friends during my studies on the Apple Developer Academy and its goal is to help students of many different fields to optimize their studies with the help of quiz techniques. Eyedia was developed in a short timeframe of 1 month, but we managed to publish its first version on the App Store even though we had a small team. I am very proud of this App and my team and I still look forward to uploading it on the near future.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://apps.apple.com/it/app/eyedia/id6502829163"
             },
             {
@@ -197,7 +197,7 @@
                 "subtitle": "Website",
                 "image": "https://www.rossellasorbinonutrizionista.it/wp-content/uploads/2023/05/Logo-definitivo-1-1-e1684938007746.png",
                 "text": "Website done and designed by my own for a nutricionist based on Naples. I designed, prototyped and developed this website with the goal to create a product that could represent the best traits of the doctor in a modern and cozy style. This Wordpress website uses woocommerce and booknetic to create a booking system integrated with the doctor's calendar.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://www.rossellasorbinonutrizionista.it"
             },
             {
@@ -205,7 +205,7 @@
                 "subtitle": "Website",
                 "image": "https://metisseofficial.it/wp-content/uploads/2024/03/cropped-metisse_sito_black.png",
                 "text": "This is a Wordpress Ecommerce website done for a boots brand that I develop and structured, in which the concept was to better expose the image and the design of the product while also attracting costumers to buy directly from the brand.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://metisseofficial.it/"
             },
             {
@@ -213,28 +213,28 @@
                 "subtitle": "Website",
                 "image": "https://www.981jewels.com/img/981-jewels-logo-1554308063.jpg",
                 "text": "This is a Prestashop Ecommerce website done for a jewelry brand. My goal in this project was, together with a designer, to create a website that would evoke a feeling of luxury that could match the product of the brand.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://www.981jewels.com/"
             },{
                 "title": "Ortensia Tropeano",
                 "subtitle": "Website",
                 "image": "https://ortensiatropeano.com/wp-content/uploads/2021/09/logo-1.png",
                 "text": "This is a Wordpress Ecommerce website done for a skincare brand. In this project I had to apply different programming languages such as PHP and Javascript to better fit the idead defined by the designer.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://ortensiatropeano.com/"
             },{
                 "title": "Pentasis",
                 "subtitle": "Website",
                 "image": "https://pentasisautomacao.com.br/wp-content/uploads/2022/09/cropped-logopentasis.png",
                 "text": "This is a Wordpress website I have done for a security and automation business, in which my task was to create a concept and develop a website that would bring the idea of technology to the business and also provide a simple way to organize the documents of the products the sell.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://pentasisautomacao.com.br/"
             },{
                 "title": "Niklo Boutique",
                 "subtitle": "Website",
                 "image": "https://niklo.eu/cdn/shop/files/logo-1642088068.png?v=1716898262&width=300",
                 "text": "This is a Shopify Ecommerce website done for a famous fashion business based on Naples.",
-                "button": "View More",
+                "button": "View Project",
                 "buttonLink": "https://niklo.eu/"
             }
         ]

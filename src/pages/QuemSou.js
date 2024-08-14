@@ -1,5 +1,5 @@
 import helloSticker from '../images/hello-sticker.png'
-import textos from "../json/Textos.json"
+
 import quemSou from "../json/QuemSou.json"
 import { Box, Heading, Highlight, Flex, Container, Text,useColorModeValue } from '@chakra-ui/react'
 export default function QuemSou(props) {
