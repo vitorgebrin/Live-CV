@@ -6,15 +6,20 @@ import { Progress, Box, Container, Flex, Heading, Text, useColorModeValue, Space
 
 export default function Habilidades(props) {
   var idioma = props.idioma
+
+  //props added to manage the visibility and animation
+  var visivel = props.visibilidade
+  var myRef = props.myRef
+
   const colorSec = useColorModeValue('gray.100', 'gray.700')
   const [val,setVal] =React.useState(0)
   React.useEffect(() =>{
-      setInterval(function(){
-          setVal(1)
-      }, 1000);
-},[] )
+    if (visivel){
+      setVal(1)}
+          
+},[visivel] )
   return (
-    <Container maxWidth="100vw" justifyContent="center" py="100px" id='skills'>
+    <Container maxWidth="100vw" justifyContent="center" py="100px" id='skills' >
       <Flex direction={["column", "row"]} maxWidth="80vw" bg={colorSec} m="auto">
       <Box w={["100%","80%"]} p="20px" textAlign='-webkit-center' alignSelf="center">
             <img src={codingSticker} alt="sticker saying hello"></img>
@@ -22,7 +27,7 @@ export default function Habilidades(props) {
         <Box p={["10px", "100px"]} w="100%" paddingBottom={["80px", "auto"]}>
           <Spacer height={["0px", "70px"]} />
           <Heading as="h2" size="lg" noOfLines={1}>{habilidadesText[idioma]["skills"]["title"]}</Heading>
-          <Box marginLeft="10px" >
+          <Box marginLeft="10px" ref={myRef} >
             <Text fontSize='lg'>
               HTML5, CSS3 & JS
             </Text>

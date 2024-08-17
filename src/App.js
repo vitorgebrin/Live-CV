@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import QuemSou from './pages/QuemSou'
 import Habilidades from './pages/Habilidades'
 import Experiencias from './pages/Experiencias'
@@ -31,11 +31,24 @@ import {
 function App() {
   const [idioma, setIdioma] = React.useState("en")
 
+
   const color = useColorModeValue('white', 'gray.700')
   const { colorMode, toggleColorMode } = useColorMode()
   const { isOpen, onOpen, onClose } = useDisclosure()
   const btnRef = React.useRef()
-  const myref = React.useRef()
+
+  //part added to manage the visibility
+  const myRef = React.useRef()
+  const [visibilidade,setVisibilidade] = React.useState()
+  useEffect(()=> {
+    const observer = new IntersectionObserver((entries) => {
+      const entry = entries[0]
+      setVisibilidade(entry.isIntersecting)
+    })
+    observer.observe(myRef.current)
+  },[])
+//end of part
+
   return (
     <Container maxWidth="100vw" px='0px'>
       <nav className="navbar">
@@ -93,7 +106,7 @@ function App() {
       </nav>
       <Flex flexDirection="column" paddingTop="65px">
         <QuemSou idioma={idioma}/>
-        <Habilidades idioma={idioma} />
+        <Habilidades idioma={idioma} myRef={myRef} visibilidade={visibilidade} />
         <Experiencias idioma={idioma} />
         <Werdegang idioma={idioma}/>
       </Flex>
