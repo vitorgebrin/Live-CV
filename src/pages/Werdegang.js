@@ -1,4 +1,4 @@
-import helloSticker from '../images/hello-sticker.png'
+import React, { useEffect } from 'react';
 import werdegangTexts from "../json/Werdegang.json"
 import { Box, Heading, Highlight, Flex, Container, Text, useColorModeValue, Button, Spacer } from '@chakra-ui/react'
 import {
@@ -22,15 +22,33 @@ const { activeStep, setActiveStep } = useSteps({
     index: 1,
     count: 3,
 })
-var idioma =props.idioma
+var idioma = props.idioma
+
+//part added to manage the visibility
+
+
+const cardRef = React.useRef()
+useEffect(()=> {
+  const observer = new IntersectionObserver((entries) => {
+    const entry = entries[0]
+    if (entry.intersectionRatio > 0.2 & entry.intersectionRatio < 0.4) { setActiveStep(2)} 
+    else if (entry.intersectionRatio > 0.7 & entry.intersectionRatio < 0.9) { setActiveStep(3)}
+    if (entry.intersectionRatio < 0.1) { setActiveStep(1)} 
+    /* setVisibilidade(entry.isIntersecting) */
+  },{ threshold: [0,0.3,0.8] })
+  observer.observe(cardRef.current)
+},[setActiveStep])
+//end of part
+
+
 return (
-    <Container maxWidth="100vw" id='werdegang'>
-<Container maxWidth={["100vw", "70vw"]} justifyContent="center">
+    <Container maxWidth="100vw" id='werdegang' >
+<Container maxWidth={["100vw", "70vw"]} justifyContent="center" >
 <Heading lineHeight='tall' fontSize={["2xl","4xl"]} textAlign="center">
            {werdegangTexts[idioma]["sectionTitle"]["title"]}
         </Heading>
         <Spacer height="60px" />
-    <Tabs isFitted variant='enclosed' colorScheme='pink'>
+    <Tabs isFitted variant='enclosed' colorScheme='pink' >
         <TabList>
             <Tab onClick={() => setActiveStep(1)}>
                 <Heading fontSize={["sm","lg"]}>
@@ -62,6 +80,7 @@ return (
                                         marginTop="-120px"
                                         marginBottom="240px"
                                         shadow="lg"
+                                        ref={index === 2 ? cardRef : null}
                                     >
 
 
@@ -92,15 +111,15 @@ return (
 
             <TabPanel>
                 <Spacer height="120px" />
-                <Flex orientation="row">
+                <Flex orientation="row" >
                     <Stack>
-                        <Stepper size='sm' index={activeStep} gap='0' orientation='vertical' colorScheme='pink'>
+                        <Stepper size='sm' index={activeStep} gap='0' orientation='vertical' colorScheme='pink' >
                             {werdegangTexts[idioma]["CardsEducation"].map((step, index) => (
                                 <Step key={index} gap='0'>
                                     <StepIndicator>
                                         <StepStatus complete={<StepIcon />} />
                                     </StepIndicator>
-                                    <Box flexShrink='0' minWidth={["auto", "200px"]} textAlign="center">
+                                    <Box flexShrink='0' minWidth={["auto", "200px"]} textAlign="center" >
                                         <StepTitle>{step["year"]}</StepTitle>
                                     </Box>
 

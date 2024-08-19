@@ -36,7 +36,6 @@ export default function Experiencias(props) {
     )
     const  [buttonsState, setButtonsState ] = useState({ 0: false, 1: false, 2: false, 3: false, 4: false, 5: false, 6: false })
     const [overlay, setOverlay] = React.useState(<OverlayOne />)
-    console.log(buttonsState)
 
     return (
         <Container maxWidth={["100vw", "80vw"]} justifyContent="center" py="100px" id='portfolio'>
