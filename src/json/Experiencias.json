@@ -19,6 +19,20 @@
                 "text": "Website done and designed by my own for a nutricionist based on Naples. I designed, prototyped and developed this website with the goal to create a product that could represent the best traits of the doctor in a modern and cozy style. This Wordpress website uses woocommerce and booknetic to create a booking system integrated with the doctor's calendar.",
                 "button": "View Project",
                 "buttonLink": "https://www.rossellasorbinonutrizionista.it/"
+            },{
+                "title": "ForagerIO",
+                "subtitle": "iOS App project",
+                "image": "https://raw.githubusercontent.com/vitorgebrin/ConcurrencyIsFunSwiftUI/main/ConcurrencyIsFunSwiftUI/Assets.xcassets/AppIcon.appiconset/1137-2.jpg",
+                "text": "An App project that I developed to recognize plants on a picture by submiting the image via POST HTTP Request to the PlantNet website. This is done with the free API PlantNet offers for people registered users. This project was developed to apply and expand my concurrency knowledge and API Calls in Swift. Here I could code and solve issues all by myself while exploring more of the Swift language, UI Design and two of my passions: Network HTTP calls and Plant studying. This project had no monetary purpose, and is focused on practicing and displaying skills.",
+                "button": "View Project",
+                "buttonLink": "https://github.com/vitorgebrin/ConcurrencyIsFunSwiftUI/tree/main"
+            },{
+                "title": "Tatagram (instagram clone)",
+                "subtitle": "iOS App project",
+                "image": "https://raw.githubusercontent.com/vitorgebrin/PersonalProjectNicone/main/NiconeVitorKalil/NiconeVitorKalil/Assets.xcassets/AppIcon.appiconset/tatagram-2.jpg",
+                "text": "Tatagram is an Instagram clone built in Swift and SwiftUI, designed as a learning project to practice API calls, handle network connections, and implement image caching. The app interacts with the Instagram Basic Display API, showcasing user data and images while storing downloaded images in a local cache for improved performance. This project was developed purely for educational purposes.",
+                "button": "View Project",
+                "buttonLink": "https://github.com/vitorgebrin/ConcurrencyIsFunSwiftUI/tree/main"
             },
             {
                 "title": "Metisse",
@@ -79,6 +93,20 @@
                 "text": "Website done and designed by my own for a nutricionist based on Naples. I designed, prototyped and developed this website with the goal to create a product that could represent the best traits of the doctor in a modern and cozy style. This Wordpress website uses woocommerce and booknetic to create a booking system integrated with the doctor's calendar.",
                 "button": "View Project",
                 "buttonLink": "https://www.rossellasorbinonutrizionista.it/"
+            },{
+                "title": "ForagerIO",
+                "subtitle": "iOS App project",
+                "image": "https://raw.githubusercontent.com/vitorgebrin/ConcurrencyIsFunSwiftUI/main/ConcurrencyIsFunSwiftUI/Assets.xcassets/AppIcon.appiconset/1137-2.jpg",
+                "text": "An App project that I developed to recognize plants on a picture by submiting the image via POST HTTP Request to the PlantNet website. This is done with the free API PlantNet offers for people registered users. This project was developed to apply and expand my concurrency knowledge and API Calls in Swift. Here I could code and solve issues all by myself while exploring more of the Swift language, UI Design and two of my passions: Network HTTP calls and Plant studying. This project had no monetary purpose, and is focused on practicing and displaying skills.",
+                "button": "View Project",
+                "buttonLink": "https://github.com/vitorgebrin/ConcurrencyIsFunSwiftUI/tree/main"
+            },{
+                "title": "Tatagram (instagram clone)",
+                "subtitle": "iOS App project",
+                "image": "https://raw.githubusercontent.com/vitorgebrin/PersonalProjectNicone/main/NiconeVitorKalil/NiconeVitorKalil/Assets.xcassets/AppIcon.appiconset/tatagram-2.jpg",
+                "text": "Tatagram is an Instagram clone built in Swift and SwiftUI, designed as a learning project to practice API calls, handle network connections, and implement image caching. The app interacts with the Instagram Basic Display API, showcasing user data and images while storing downloaded images in a local cache for improved performance. This project was developed purely for educational purposes.",
+                "button": "View Project",
+                "buttonLink": "https://github.com/vitorgebrin/ConcurrencyIsFunSwiftUI/tree/main"
             },
             {
                 "title": "Metisse",
@@ -139,6 +167,20 @@
                 "text": "Website done and designed by my own for a nutricionist based on Naples. I designed, prototyped and developed this website with the goal to create a product that could represent the best traits of the doctor in a modern and cozy style. This Wordpress website uses woocommerce and booknetic to create a booking system integrated with the doctor's calendar.",
                 "button": "View Project",
                 "buttonLink": "https://www.rossellasorbinonutrizionista.it/"
+            },{
+                "title": "ForagerIO",
+                "subtitle": "iOS App project",
+                "image": "https://raw.githubusercontent.com/vitorgebrin/ConcurrencyIsFunSwiftUI/main/ConcurrencyIsFunSwiftUI/Assets.xcassets/AppIcon.appiconset/1137-2.jpg",
+                "text": "An App project that I developed to recognize plants on a picture by submiting the image via POST HTTP Request to the PlantNet website. This is done with the free API PlantNet offers for people registered users. This project was developed to apply and expand my concurrency knowledge and API Calls in Swift. Here I could code and solve issues all by myself while exploring more of the Swift language, UI Design and two of my passions: Network HTTP calls and Plant studying. This project had no monetary purpose, and is focused on practicing and displaying skills.",
+                "button": "View Project",
+                "buttonLink": "https://github.com/vitorgebrin/ConcurrencyIsFunSwiftUI/tree/main"
+            },{
+                "title": "Tatagram (instagram clone)",
+                "subtitle": "iOS App project",
+                "image": "https://raw.githubusercontent.com/vitorgebrin/PersonalProjectNicone/main/NiconeVitorKalil/NiconeVitorKalil/Assets.xcassets/AppIcon.appiconset/tatagram-2.jpg",
+                "text": "Tatagram is an Instagram clone built in Swift and SwiftUI, designed as a learning project to practice API calls, handle network connections, and implement image caching. The app interacts with the Instagram Basic Display API, showcasing user data and images while storing downloaded images in a local cache for improved performance. This project was developed purely for educational purposes.",
+                "button": "View Project",
+                "buttonLink": "https://github.com/vitorgebrin/ConcurrencyIsFunSwiftUI/tree/main"
             },
             {
                 "title": "Metisse",
@@ -199,6 +241,20 @@
                 "text": "Website done and designed by my own for a nutricionist based on Naples. I designed, prototyped and developed this website with the goal to create a product that could represent the best traits of the doctor in a modern and cozy style. This Wordpress website uses woocommerce and booknetic to create a booking system integrated with the doctor's calendar.",
                 "button": "View Project",
                 "buttonLink": "https://www.rossellasorbinonutrizionista.it"
+            },{
+                "title": "ForagerIO",
+                "subtitle": "iOS App project",
+                "image": "https://raw.githubusercontent.com/vitorgebrin/ConcurrencyIsFunSwiftUI/main/ConcurrencyIsFunSwiftUI/Assets.xcassets/AppIcon.appiconset/1137-2.jpg",
+                "text": "An App project that I developed to recognize plants on a picture by submiting the image via POST HTTP Request to the PlantNet website. This is done with the free API PlantNet offers for people registered users. This project was developed to apply and expand my concurrency knowledge and API Calls in Swift. Here I could code and solve issues all by myself while exploring more of the Swift language, UI Design and two of my passions: Network HTTP calls and Plant studying. This project had no monetary purpose, and is focused on practicing and displaying skills.",
+                "button": "View Project",
+                "buttonLink": "https://github.com/vitorgebrin/ConcurrencyIsFunSwiftUI/tree/main"
+            },{
+                "title": "Tatagram (instagram clone)",
+                "subtitle": "iOS App project",
+                "image": "https://raw.githubusercontent.com/vitorgebrin/PersonalProjectNicone/main/NiconeVitorKalil/NiconeVitorKalil/Assets.xcassets/AppIcon.appiconset/tatagram-2.jpg",
+                "text": "Tatagram is an Instagram clone built in Swift and SwiftUI, designed as a learning project to practice API calls, handle network connections, and implement image caching. The app interacts with the Instagram Basic Display API, showcasing user data and images while storing downloaded images in a local cache for improved performance. This project was developed purely for educational purposes.",
+                "button": "View Project",
+                "buttonLink": "https://github.com/vitorgebrin/ConcurrencyIsFunSwiftUI/tree/main"
             },
             {
                 "title": "Metisse",

@@ -37,7 +37,7 @@ export default function Experiencias(props) {
             backdropFilter='blur(10px) hue-rotate(90deg)'
         />
     )
-    const [buttonsState, setButtonsState] = useState({ 0: false, 1: false, 2: false, 3: false, 4: false, 5: false, 6: false })
+    const [buttonsState, setButtonsState] = useState({ 0: false, 1: false, 2: false, 3: false, 4: false, 5: false, 6: false, 7:false })
     const [overlay, setOverlay] = React.useState(<OverlayOne />)
 
     return (
@@ -49,8 +49,8 @@ export default function Experiencias(props) {
                 <Tabs variant='soft-rounded' colorScheme='pink'>
                     <TabList>
                         <Tab variant="outline" size="md" onClick={() => setFilter("")}>View All</Tab>
-                        <Tab variant="outline" size="md" onClick={() => setFilter("appPortfolio")}>Filter App</Tab>
-                        <Tab variant="outline" size="md" onClick={() => setFilter("websitePortfolio")}>Filter Site</Tab>
+                        <Tab variant="outline" size="md" onClick={() => setFilter("appPortfolio")}>Apps</Tab>
+                        <Tab variant="outline" size="md" onClick={() => setFilter("websitePortfolio")}>Websites</Tab>
                     </TabList>
                 </Tabs>
             </Stack>
