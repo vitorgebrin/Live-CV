@@ -8,6 +8,7 @@ import myIcon from './images/letter-v.png'
 import menuText from "./json/Menu.json"
 import './App.css'
 import './index.css'
+import myBackground from './images/mainImage.png'
 
 import { Container, Flex, Button, useColorModeValue, useColorMode, useDisclosure } from '@chakra-ui/react';
 import { HamburgerIcon, SunIcon, MoonIcon } from '@chakra-ui/icons'
@@ -104,7 +105,8 @@ function App() {
           </Button>
         </Flex>
       </nav>
-      <Flex flexDirection="column" paddingTop="65px">
+      <Flex flexDirection="column" paddingTop="65px" className='mainDiv'>
+      <img id="main_bg_image" src={myBackground} alt="background image showing computer science lab"></img>
         <QuemSou idioma={idioma}/>
         <Habilidades idioma={idioma} myRef={myRef} visibilidade={visibilidade} />
         <Experiencias idioma={idioma} />

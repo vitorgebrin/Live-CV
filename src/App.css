@@ -1,3 +1,5 @@
+.mainDiv {    width: 100vw;
+  overflow: hidden;}
 .logo{
   width:25px;
   height:25px;
@@ -69,4 +71,12 @@
 .chakra-tabs__tab{padding:0 !important}
 .chakra-tabs__tab-panels {border: 1px solid var(--chakra-colors-gray-200) !important}
 .chakra-ui-dark  .chakra-tabs__tab-panels {border: 1px solid var(--chakra-colors-whiteAlpha-300) !important}
+}
+.swiper-slide{transition: width 1.6s ease, opacity 0.6s ease-in;}
+.website_portfolio .ios_app, .app_portfolio .website{ width: 0px !important; opacity: 0; margin-inline:-40px;}
+#main_bg_image{height:760px}
+@media only screen and (max-width:992px) {
+  .website_portfolio .ios_app, .app_portfolio .website{ margin-inline:0px;}
+.chakra-tabs button{ padding-inline:15px !important;}
+#main_bg_image{min-width: max-content;height:400px}
 }
